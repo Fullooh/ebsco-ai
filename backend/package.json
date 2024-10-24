@@ -6,7 +6,9 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "aws-sdk": "^2.1140.0",
+    "dotenv": "^16.4.5",
     "express": "^4.18.0",
-    "aws-sdk": "^2.1140.0"
+    "openai": "^4.68.4"
   }
 }
