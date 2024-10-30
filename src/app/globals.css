@@ -19,3 +19,15 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+textarea {
+  width: 70vw;      
+  background-color: rgba(50, 50, 50, 0.7);
+  color: white;          
+  border: none;          
+  outline: none;        
+  padding: 20px;  
+  margin: 30px;        
+  border-radius: 30px;
+  resize: none;           
+}
