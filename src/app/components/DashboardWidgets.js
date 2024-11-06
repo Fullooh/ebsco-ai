@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import { useRouter } from "next/navigation"; // Import the router
 
 const DashboardWidgets = () => {
   const [totalLeads, setTotalLeads] = useState(0);
   const [recentLeads, setRecentLeads] = useState(0);
+  const router = useRouter(); // Initialize the router
 
   useEffect(() => {
     const fetchData = async () => {
@@ -31,10 +33,18 @@ const DashboardWidgets = () => {
     fetchData();
   }, []);
 
+  // Click handler to navigate to the leads page
+  const handleTotalLeadsClick = () => {
+    router.push("/leads"); // Navigate to the /leads page
+  };
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-      {/* Total Leads Widget with hover effect */}
-      <div className="group bg-white p-6 rounded-lg shadow ring-1 ring-gray-300 hover:bg-sky-500 hover:ring-sky-500 transition-colors">
+      {/* Total Leads Widget with click and hover effect */}
+      <div
+        onClick={handleTotalLeadsClick} // Add click handler here
+        className="group bg-white p-6 rounded-lg shadow ring-1 ring-gray-300 hover:bg-sky-500 hover:ring-sky-500 transition-colors cursor-pointer"
+      >
         <div className="flex items-center space-x-3">
           <h2 className="text-xl font-semibold text-gray-800 group-hover:text-white">
             Total Leads
