@@ -2,27 +2,23 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 const DashboardWidgets = () => {
-  // State for storing total leads and recent leads
   const [totalLeads, setTotalLeads] = useState(0);
   const [recentLeads, setRecentLeads] = useState(0);
 
   useEffect(() => {
-    // Function to fetch data and update states
     const fetchData = async () => {
       try {
-        const response = await axios.get("/data.json"); // Update this path
+        const response = await axios.get("/data.json");
         const leads = response.data;
 
-        // Calculate total leads that are purchased
         const total = leads.filter((lead) => lead.purchased).length;
         setTotalLeads(total);
 
-        // Calculate leads closed in the last 6 months
         const sixMonthsAgo = new Date();
         sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
 
         const recent = leads.filter((lead) => {
-          const closedDate = new Date(lead.dateClosed); // Ensure `dateClosed` matches your JSON field
+          const closedDate = new Date(lead.dateClosed);
           return lead.purchased && closedDate >= sixMonthsAgo;
         }).length;
 
@@ -37,10 +33,16 @@ const DashboardWidgets = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-      {/* Total Leads Widget */}
-      <div className="bg-white p-6 rounded-lg shadow">
-        <h2 className="text-xl font-semibold text-gray-800">Total Leads</h2>
-        <p className="text-3xl font-bold text-gray-900">{totalLeads}</p>
+      {/* Total Leads Widget with hover effect */}
+      <div className="group bg-white p-6 rounded-lg shadow ring-1 ring-gray-300 hover:bg-sky-500 hover:ring-sky-500 transition-colors">
+        <div className="flex items-center space-x-3">
+          <h2 className="text-xl font-semibold text-gray-800 group-hover:text-white">
+            Total Leads
+          </h2>
+        </div>
+        <p className="text-3xl font-bold text-gray-900 group-hover:text-white">
+          {totalLeads}
+        </p>
       </div>
 
       {/* Leads Closed in Last 6 Months Widget */}
