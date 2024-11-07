@@ -65,7 +65,7 @@ const DashboardWidgets = () => {
 
       {/* Pipeline Value Widget (Static for now) */}
       <div className="bg-white p-6 rounded-lg shadow">
-        <h2 className="text-xl font-semibold text-gray-800">Pipeline Value</h2>
+        <h2 className="text-xl font-semibold text-gray-800">Total Value</h2>
         <p className="text-3xl font-bold text-gray-900">$50,000</p>
       </div>
     </div>
