@@ -57,22 +57,26 @@ const Sidebar = () => {
       </nav>
 
       {/* Chat Assistant Section */}
+      {/* Chat Assistant Section */}
       <div className="mt-auto p-4 bg-gray-50 rounded-lg shadow-inner ml-1 mr-1">
-        {" "}
-        {/* Adjusted margins */}
         <h2 className="text-lg font-semibold text-gray-800 mb-2">
           Chat Assistant
         </h2>
         <div className="flex flex-col gap-4 items-center sm:items-start">
-          <div id="messages" className="mb-4 text-sm text-gray-700">
+          {/* Messages Container with Scroll */}
+          <div
+            id="messages"
+            className="mb-4 text-sm text-gray-700 max-h-40 w-full overflow-y-auto p-2 bg-white rounded shadow-inner"
+          >
             <p>Test the assistant below.</p>
+            {/* Dynamic messages will go here */}
           </div>
+
           <textarea
             id="input"
             placeholder="Start typing..."
             className="w-[95%] h-20 p-2 border rounded resize-none text-gray-800 -ml-2 -mt-2"
           ></textarea>
-
           <ChatControls />
         </div>
       </div>
