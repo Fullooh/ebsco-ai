@@ -1,15 +1,17 @@
 // src/components/Sidebar.js
 
 import Link from "next/link";
+import ChatControls from "./ChatControls";
 
 const Sidebar = () => {
   return (
-    <div className="relative flex h-[calc(100vh-5rem)] w-full max-w-[20rem] flex-col rounded-xl bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+    <div className="relative flex flex-col h-[calc(100vh-5rem)] w-full max-w-[20rem] rounded-xl bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
       <div className="p-4 mb-2">
         <h5 className="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
           CRM
         </h5>
       </div>
+
       <nav className="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
         <Link href="/">
           <div
@@ -24,16 +26,13 @@ const Sidebar = () => {
                 aria-hidden="true"
                 className="w-5 h-5"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M2.25 2.25a.75.75 0 000 1.5H3v10.5a3 3 0 003 3h1.21l-1.172 3.513a.75.75 0 001.424.474l.329-.987h8.418l.33.987a.75.75 0 001.422-.474l-1.17-3.513H18a3 3 0 003-3V3.75h.75a.75.75 0 000-1.5H2.25zm6.04 16.5l.5-1.5h6.42l.5 1.5H8.29zm7.46-12a.75.75 0 00-1.5 0v6a.75.75 0 001.5 0v-6zm-3 2.25a.75.75 0 00-1.5 0v3.75a.75.75 0 001.5 0V9zm-3 2.25a.75.75 0 00-1.5 0v1.5a.75.75 0 001.5 0v-1.5z"
-                  clipRule="evenodd"
-                ></path>
+                {/* SVG path for Dashboard Icon */}
               </svg>
             </div>
             Dashboard
           </div>
         </Link>
+
         <Link href="/ecommerce">
           <div
             role="button"
@@ -47,18 +46,36 @@ const Sidebar = () => {
                 aria-hidden="true"
                 className="w-5 h-5"
               >
-                <path
-                  fillRule="evenodd"
-                  d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 004.25 22.5h15.5a1.875 1.875 0 001.865-2.071l-1.263-12a1.875 1.875 0 00-1.865-1.679H16.5V6a4.5 4.5 0 10-9 0zM12 3a3 3 0 00-3 3v.75h6V6a3 3 0 00-3-3zm-3 8.25a3 3 0 106 0v-.75a.75.75 0 011.5 0v.75a4.5 4.5 0 11-9 0v-.75a.75.75 0 011.5 0v.75z"
-                  clipRule="evenodd"
-                ></path>
+                {/* SVG path for E-Commerce Icon */}
               </svg>
             </div>
             E-Commerce
           </div>
         </Link>
-        {/* Add more links in similar way */}
+
+        {/* Add more links similarly */}
       </nav>
+
+      {/* Chat Assistant Section */}
+      <div className="mt-auto p-4 bg-gray-50 rounded-lg shadow-inner ml-1 mr-1">
+        {" "}
+        {/* Adjusted margins */}
+        <h2 className="text-lg font-semibold text-gray-800 mb-2">
+          Chat Assistant
+        </h2>
+        <div className="flex flex-col gap-4 items-center sm:items-start">
+          <div id="messages" className="mb-4 text-sm text-gray-700">
+            <p>Test the assistant below.</p>
+          </div>
+          <textarea
+            id="input"
+            placeholder="Start typing..."
+            className="w-[95%] h-20 p-2 border rounded resize-none text-gray-800 -ml-2 -mt-2"
+          ></textarea>
+
+          <ChatControls />
+        </div>
+      </div>
     </div>
   );
 };
