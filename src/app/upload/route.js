@@ -1,4 +1,4 @@
-mport { NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import { writeFile, mkdir } from 'fs/promises';
 import { join } from 'path';
 
@@ -15,10 +15,23 @@ export async function POST(req) {
     // Upload file to /tmp for now
     const uploadPath = '/tmp/uploads';
     await mkdir(uploadPath, { recursive: true });
-    const filePath = join(uploadPath, `${Date.now()}-${file.name}`);
+    const filePath = join(uploadPath, `${file.name}`);
 
     // Write the file to the upload path
     const fileStream = file.stream();
+
+    const chunks = [];
+    for await (const chunk of fileStream) {
+      chunks.push(chunk);
+    }
+    const fileContent = Buffer.concat(chunks).toString('utf8');
+
+    try {
+      JSON.parse(fileContent);
+    } catch (err) {
+      return NextResponse.json({ error: 'Invalid JSON content' }, { status: 400 });
+    }
+
     const writeStream = writeFile(filePath, fileStream);
 
     await writeStream;

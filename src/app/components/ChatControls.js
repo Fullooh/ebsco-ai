@@ -10,7 +10,8 @@ export default function ChatControls() {
         const messageElement = document.createElement("div");
        
         const senderElement = document.createElement("div");
-        senderElement.textContent = sender.toUpperCase();
+        senderElement.textContent = sender;
+        senderElement.classList.add("font-bold");
     
         const contentElement = document.createElement("div");
     
@@ -36,7 +37,7 @@ export default function ChatControls() {
      // Fetch a response from the ChatGPT API
      async function fetchChatGPTResponse(userInput) {
         
-        const response = await fetch(`http://localhost:3000/chat`, {
+        const response = await fetch(`/chat`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
@@ -71,7 +72,7 @@ export default function ChatControls() {
         miscButton.disabled = false;
     }
 
-    return(
+    return (
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <button
             id="submit"
@@ -86,6 +87,5 @@ export default function ChatControls() {
             More info
           </button>
         </div>
-    )
-
+    );
 }

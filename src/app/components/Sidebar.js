@@ -47,14 +47,15 @@ const Sidebar = () => {
             id="messages"
             className="mb-4 text-sm text-gray-700 max-h-40 w-full overflow-y-auto p-2 bg-white rounded shadow-inner"
           >
-            <p>Test the assistant below.</p>
+            <p>Enter a message below.</p>
+            <br></br>
             {/* Dynamic messages will go here */}
           </div>
 
           <textarea
             id="input"
             placeholder="Start typing..."
-            className="w-[95%] h-20 p-2 border rounded resize-none text-gray-800 -ml-2 -mt-2"
+            className="w-[95%] h-20 p-2 border rounded resize-none text-white-800 -ml-2 -mt-2"
           ></textarea>
           <ChatControls />
         </div>

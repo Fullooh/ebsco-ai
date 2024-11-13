@@ -10,7 +10,7 @@ const DashboardWidgets = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/data.json");
+        const response = await axios.get("/fetch");
         const leads = response.data;
 
         const total = leads.filter((lead) => lead.purchased).length;

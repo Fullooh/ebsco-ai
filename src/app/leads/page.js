@@ -12,7 +12,7 @@ export default function LeadsPage() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/data.json"); // Update the path as needed
+        const response = await axios.get("/fetch"); // Update the path as needed
         const data = response.data.map((lead) => ({
           ...lead,
           value: lead.purchased
