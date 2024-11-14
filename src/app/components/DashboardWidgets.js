@@ -5,12 +5,13 @@ import { useRouter } from "next/navigation"; // Import the router
 const DashboardWidgets = () => {
   const [totalLeads, setTotalLeads] = useState(0);
   const [recentLeads, setRecentLeads] = useState(0);
+  const [totalValue, setTotalValue] = useState(0);
   const router = useRouter(); // Initialize the router
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/fetch");
+        const response = await axios.get("/data");
         const leads = response.data;
 
         const total = leads.filter((lead) => lead.purchased).length;
@@ -20,11 +21,17 @@ const DashboardWidgets = () => {
         sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
 
         const recent = leads.filter((lead) => {
-          const closedDate = new Date(lead.dateClosed);
+          const closedDate = new Date(lead.dateclosed);
           return lead.purchased && closedDate >= sixMonthsAgo;
         }).length;
 
         setRecentLeads(recent);
+
+        const totalValue = leads.reduce((sum, lead) => {
+          return sum + (lead.proposedvalue || 0);
+        }, 0);
+
+        setTotalValue(totalValue);
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -66,7 +73,7 @@ const DashboardWidgets = () => {
       {/* Pipeline Value Widget (Static for now) */}
       <div className="bg-white p-6 rounded-lg shadow">
         <h2 className="text-xl font-semibold text-gray-800">Total Value</h2>
-        <p className="text-3xl font-bold text-gray-900">$50,000</p>
+        <p className="text-3xl font-bold text-gray-900">${totalValue.toLocaleString()}</p>
       </div>
     </div>
   );

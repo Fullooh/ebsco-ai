@@ -4,7 +4,7 @@ import path from "path";
 import { NextResponse } from "next/server";
 
 export async function GET() {
-  const filePath = path.join("/tmp", "uploads", "data.json");
+  const filePath = path.join("/tmp/uploads", "data.json");
 
   try {
     const data = await fs.readFile(filePath, "utf8");

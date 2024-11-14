@@ -17,24 +17,23 @@ export async function POST(req) {
     await mkdir(uploadPath, { recursive: true });
     const filePath = join(uploadPath, `${file.name}`);
 
-    // Write the file to the upload path
+    // Read the file stream and collect the chunks
     const fileStream = file.stream();
-
     const chunks = [];
     for await (const chunk of fileStream) {
       chunks.push(chunk);
     }
-    const fileContent = Buffer.concat(chunks).toString('utf8');
+    const fileContent = Buffer.concat(chunks);
 
+    // Check if the content is valid JSON
     try {
-      JSON.parse(fileContent);
+      JSON.parse(fileContent.toString('utf8'));
     } catch (err) {
       return NextResponse.json({ error: 'Invalid JSON content' }, { status: 400 });
     }
 
-    const writeStream = writeFile(filePath, fileStream);
-
-    await writeStream;
+    // Write the file content to the path
+    await writeFile(filePath, fileContent);
 
     return NextResponse.json({
       message: 'File uploaded successfully',
