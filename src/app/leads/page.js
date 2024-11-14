@@ -3,22 +3,26 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useRouter } from "next/navigation"; // Import useRouter to handle navigation
+import { useRouter } from "next/navigation";
 
 export default function LeadsPage() {
   const [leads, setLeads] = useState([]);
-  const router = useRouter(); // Initialize the router
+  const router = useRouter();
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/fetch"); // Update the path as needed
-        const data = response.data.map((lead) => ({
-          ...lead,
-          value: lead.purchased
-            ? `$${(Math.random() * 1000000).toFixed(0)}`
-            : "$0",
-        }));
+        const response = await axios.get("/data.json"); // Update the path as needed
+
+        // Sort leads so purchased ones appear first
+        const data = response.data
+          .map((lead) => ({
+            ...lead,
+          }))
+          .sort((a, b) =>
+            a.purchased === b.purchased ? 0 : a.purchased ? -1 : 1,
+          );
+
         setLeads(data);
       } catch (error) {
         console.error("Error fetching leads data:", error);
@@ -48,16 +52,22 @@ export default function LeadsPage() {
         <thead>
           <tr className="bg-gray-200">
             <th className="p-4 text-left">Company</th>
+            <th className="p-4 text-left">Date First Contacted</th>
+            <th className="p-4 text-left">Interest Level</th>
+            <th className="p-4 text-left">Proposed Value</th>
             <th className="p-4 text-left">Purchased</th>
-            <th className="p-4 text-left">Value</th>
+            <th className="p-4 text-left">Date Closed</th>
           </tr>
         </thead>
         <tbody>
           {leads.map((lead, index) => (
             <tr key={index} className="border-b">
               <td className="p-4">{lead.company}</td>
+              <td className="p-4">{lead.datefirstcontacted}</td>
+              <td className="p-4">{lead.interestlevel}</td>
+              <td className="p-4">{`$${lead.proposedvalue.toLocaleString()}`}</td>
               <td className="p-4">{lead.purchased ? "Yes" : "No"}</td>
-              <td className="p-4">{lead.value}</td>
+              <td className="p-4">{lead.dateclosed || "N/A"}</td>
             </tr>
           ))}
         </tbody>
