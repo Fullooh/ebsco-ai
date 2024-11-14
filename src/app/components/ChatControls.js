@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import MarkdownRenderer from "./MarkdownRenderer";
 
 export default function ChatControls() {
     const [messageCounter, setMessageCounter] = useState(0);

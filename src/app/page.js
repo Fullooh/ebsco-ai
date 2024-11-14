@@ -5,6 +5,7 @@ import DashboardWidgets from "./components/DashboardWidgets";
 import ChatControls from "./components/ChatControls";
 import Sidebar from "./components/Sidebar";
 import FileUpload from "./components/FileUpload";
+import Recommendations from "./components/Recommendations";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <FileUpload />
         {/* Dashboard Widgets */}
         <DashboardWidgets />
+        <Recommendations />
       </div>
     </div>
   );
