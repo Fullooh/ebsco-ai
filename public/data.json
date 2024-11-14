@@ -1,1658 +1,1852 @@
 [
-  {
-    "company": "Greenwood Unified School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Greenwood USD team, we're excited to share how our product can simplify identity and data management for your district. Would you be interested in a demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for reaching out! A demo sounds great. Could you provide an overview of how this integrates with Google Classroom?"
-      },
-      {
-        "type": "outbound",
-        "content": "Certainly! Our tool has a seamless integration with Google Classroom, allowing single sign-on for students and staff. During the demo, we can walk through this feature in detail."
-      },
-      {
-        "type": "inbound",
-        "content": "Sounds good. Could you also explain how student data is protected, especially in light of FERPA requirements?"
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely. We use industry-standard encryption and access control, and we're fully FERPA-compliant. Let's schedule a time for a live walkthrough."
-      },
-      {
-        "type": "inbound",
-        "content": "Perfect. We'd also like to understand the reporting capabilities for monitoring student usage."
-      },
-      {
-        "type": "outbound",
-        "content": "We offer detailed reporting on student activity, broken down by tool usage, login history, and more. Let's discuss these details in the demo."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you! Let's go ahead with the purchase after the demo. The reporting and compliance aspects seem to be exactly what we're looking for."
-      }
-    ]
-  },
-  {
-    "company": "Riverview School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Riverview School District Team, we're excited to introduce our identity and data management solutions tailored for school districts. Are you interested in setting up a quick call to learn more?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello, thank you for reaching out. We'd love to set up a call to discuss this further. When would you be available?"
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you! We're available tomorrow at 10 AM. Does that work?"
-      },
-      {
-        "type": "inbound",
-        "content": "That works perfectly. Thank you!"
-      },
-      {
-        "type": "outbound",
-        "content": "Great! We'll send over the meeting invite. Looking forward to discussing how our solutions can support Riverview School District."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks for the call! We’d like to move forward with the purchase."
-      }
-    ]
-  },
-  {
-    "company": "Mountain View School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Mountain View School District, our team provides a complete identity and data management solution for K-12 education. Would you be interested in a quick chat to explore how we can help streamline your processes?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for reaching out. We're interested and would like to schedule a call this week. Could you share available times?"
-      },
-      {
-        "type": "outbound",
-        "content": "We're available Thursday at 3 PM. Does that work for your team?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, Thursday at 3 PM is perfect. Thank you for arranging it!"
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for the great conversation today! We'll follow up with contract details to finalize your purchase."
-      },
-      {
-        "type": "inbound",
-        "content": "Perfect! We’re looking forward to getting started."
-      }
-    ]
-  },
-  {
-    "company": "Springfield Unified School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Dr. Robinson, I’m reaching out to introduce our comprehensive data and identity management solution designed specifically for school districts. This product integrates seamlessly with your existing tools and enhances security for student data. Would you be open to a brief call to discuss this further?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for reaching out. We’re always interested in solutions that help manage data efficiently. I’d be open to a call. Could we set one up for Thursday afternoon?"
-      },
-      {
-        "type": "outbound",
-        "content": "Thursday works great! I'll send over a calendar invite for 2 PM. Looking forward to discussing how our solution could support Springfield Unified’s needs."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you! In advance, could you send over any documentation on integration with tools we already use, like Google Classroom and Canvas?"
-      },
-      {
-        "type": "outbound",
-        "content": "Certainly, Dr. Robinson. Attached is a document detailing our integration capabilities with popular platforms, including Google Classroom and Canvas. Let me know if there are any other specific tools you’d like details on."
-      },
-      {
-        "type": "inbound",
-        "content": "Got it, thanks. We’ll review this material before our meeting."
-      },
-      {
-        "type": "outbound",
-        "content": "Following up after our call, here’s the additional information on student data protection protocols we discussed. Please don’t hesitate to reach out with further questions."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you! One more thing: how often are your security audits conducted, and is there any support for onboarding our IT staff?"
-      },
-      {
-        "type": "outbound",
-        "content": "We conduct security audits quarterly and offer a comprehensive onboarding program for IT staff, including live training sessions. We’ll ensure a smooth transition for your team."
-      },
-      {
-        "type": "inbound",
-        "content": "Appreciate the info. We’re ready to move forward with the purchase."
-      },
-      {
-        "type": "outbound",
-        "content": "That’s wonderful news! I’ll guide you through the final steps to get everything set up. We’re thrilled to have Springfield Unified on board!"
-      }
-    ]
-  },
-  {
-    "company": "Northview Public Schools",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Good morning, Mr. Larson. I wanted to reach out regarding our identity and data management solution for school districts. Our platform has been designed with ease of use and security in mind, ensuring a streamlined experience for both students and faculty. Could we schedule a call to explore this further?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi, thank you for reaching out! I’d be interested in learning more. Let’s set up a call. Do you have availability early next week?"
-      },
-      {
-        "type": "outbound",
-        "content": "Monday at 10 AM works perfectly. I’ll send over a calendar invitation."
-      },
-      {
-        "type": "inbound",
-        "content": "Got it. Could you also provide some case studies or references from similar-sized districts?"
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely! I’ve attached some case studies and reference contacts from districts of comparable size. Please let me know if there’s anything specific you’d like us to highlight on our call."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks, I’ll review these materials."
-      },
-      {
-        "type": "outbound",
-        "content": "Following up on our call, here are details on user account management and automated data syncing with SIS. Let me know if there’s anything else you need."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks for this info! One question: how does your solution handle custom data fields for students?"
-      },
-      {
-        "type": "outbound",
-        "content": "Great question! Our platform allows for extensive customization, including custom data fields for unique requirements. We can dive deeper into this during the onboarding process."
-      },
-      {
-        "type": "inbound",
-        "content": "Understood, that’s reassuring. Another question: do you offer a sandbox environment for testing?"
-      },
-      {
-        "type": "outbound",
-        "content": "Yes, we do provide a sandbox environment to ensure your team is comfortable with the platform before going live."
-      },
-      {
-        "type": "inbound",
-        "content": "Fantastic. After reviewing everything, we’re ready to move forward with Northview’s purchase."
-      },
-      {
-        "type": "outbound",
-        "content": "Excellent! We’ll start the onboarding process right away. Welcome to our network, Northview Public Schools!"
-      }
-    ]
-  },
-  {
-    "company": "East Valley Unified School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi East Valley Unified, we specialize in education-focused identity and data management solutions. Would your team be open to a brief call to discuss how our platform can benefit your district?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello, we're very interested in setting up a call. When would work for you?"
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you! How about tomorrow at 2 PM?"
-      },
-      {
-        "type": "inbound",
-        "content": "Tomorrow at 2 PM is perfect. See you then!"
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for the insightful call! We'll send over the next steps for your purchase."
-      },
-      {
-        "type": "inbound",
-        "content": "Sounds great, we’re excited to proceed with the purchase. Thanks!"
-      }
-    ]
-  },
-  {
-    "company": "Springfield Unified School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, I'm reaching out to introduce our identity and data management solution, tailored for K-12 public school districts. We'd love to discuss how it can benefit Springfield Unified. Would you be open to setting up a call?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for reaching out. Yes, we’re interested in learning more. Could we schedule a call for next week?"
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely! How does Tuesday at 2 pm work?"
-      },
-      {
-        "type": "inbound",
-        "content": "Tuesday works great. See you then."
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for the call today! Following up with additional documentation on security features and how we integrate with existing systems."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the information. A few more questions: How will student data be protected, and is there any additional training required for our IT team?"
-      },
-      {
-        "type": "outbound",
-        "content": "Great questions! Our system is FERPA-compliant, and we provide optional training for IT staff. Would it help if I arranged a demo for your team?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, a demo would be helpful. Let’s schedule it for later this week."
-      },
-      {
-        "type": "outbound",
-        "content": "Demo scheduled for Friday. Looking forward to it!"
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks for the demo. We’re ready to move forward with the purchase. Could you send over the contract?"
-      },
-      {
-        "type": "outbound",
-        "content": "Congratulations on the decision! Sending the contract shortly. Let us know if you have any final questions."
-      }
-    ]
-  },
-  {
-    "company": "Westfield County Schools",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, I wanted to reach out to share information about our data management platform designed for school districts like Westfield County. Would you be interested in a brief call to discuss?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, we’re interested. Could we set up a call for more details?"
-      },
-      {
-        "type": "outbound",
-        "content": "How about Wednesday at 10 am?"
-      },
-      {
-        "type": "inbound",
-        "content": "That works. Thank you!"
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for the call! Here are some resources on our system’s integration capabilities and customization options."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the resources. How does your platform handle user authentication, and what are the support options during implementation?"
-      },
-      {
-        "type": "outbound",
-        "content": "Our platform offers multi-factor authentication and integrates with district single sign-on systems. We also offer dedicated support throughout implementation and beyond."
-      },
-      {
-        "type": "inbound",
-        "content": "That sounds promising. One last question: how flexible is the system in terms of access permissions for different staff roles?"
-      },
-      {
-        "type": "outbound",
-        "content": "Our system supports flexible role-based access, allowing for precise control over permissions. Would you like a demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, let’s do a demo."
-      },
-      {
-        "type": "outbound",
-        "content": "Demo is set for Friday. Looking forward to it!"
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks for the demo. We’re ready to move forward. Could you send the purchase details?"
-      },
-      {
-        "type": "outbound",
-        "content": "Congratulations on your decision! Sending the purchase contract over now."
-      }
-    ]
-  },
-  {
-    "company": "Lakeside Regional Schools",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, I’d like to introduce you to our comprehensive data management platform designed for school districts. Would you be open to a quick call to explore how it can support Lakeside Regional Schools?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello, yes, we’d be open to a call. Could we arrange one for next week?"
-      },
-      {
-        "type": "outbound",
-        "content": "Sure! Does Monday at 11 am work?"
-      },
-      {
-        "type": "inbound",
-        "content": "Monday works. Looking forward to it."
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for the call! Following up with an overview of key features and security measures."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you. We have a few additional questions: How often are system updates provided, and are there backup options available?"
-      },
-      {
-        "type": "outbound",
-        "content": "We perform monthly updates, and backups are automated daily, stored securely. Would you like to discuss implementation specifics?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, that would be helpful. Could we also see a demo?"
-      },
-      {
-        "type": "outbound",
-        "content": "Definitely. I’ll set up a demo for Thursday."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the demo. We’d like to proceed with purchasing the platform. Could you send over the agreement?"
-      },
-      {
-        "type": "outbound",
-        "content": "Wonderful news! Sending over the agreement now. Please reach out with any final questions."
-      }
-    ]
-  },
-  {
-    "company": "Lakeside School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Lakeside School District, our team offers a streamlined identity and data management solution designed for schools. Are you available for a quick call to discuss how we can support your needs?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, we’d be interested in discussing this. Can we set up a call this week?"
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for your interest! We're available Friday at 11 AM. Would that work for your team?"
-      },
-      {
-        "type": "inbound",
-        "content": "Friday at 11 AM works well. Thank you!"
-      },
-      {
-        "type": "outbound",
-        "content": "Thanks for the call today! We’ll send over the contract details to finalize your purchase."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you! We’re ready to move forward with the purchase."
-      }
-    ]
-  },
-  {
-    "company": "Springfield Unified School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, Springfield Unified team! We're excited to introduce EduManage, a solution to streamline identity and data management across your educational tools. Are you available for a brief demo next week?"
-      },
-      {
-        "type": "outbound",
-        "content": "Just following up on my previous email—our EduManage platform could help Springfield Unified save time and resources. Let me know if there’s a good time to chat!"
-      },
-      {
-        "type": "outbound",
-        "content": "I wanted to reach out one last time in case you were interested in our identity and data management solutions. Please don’t hesitate to reach out if you’d like to learn more."
-      }
-    ]
-  },
-  {
-    "company": "Pine Valley School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Pine Valley team! I’d like to introduce EduManage, a comprehensive solution for identity and data management in education. Do you have time for a quick call to discuss?"
-      },
-      {
-        "type": "outbound",
-        "content": "Just checking in on my previous message—our platform could be a great fit for Pine Valley. Let me know if there’s any interest in a demo."
-      }
-    ]
-  },
-  {
-    "company": "Greenwood County Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Greenwood County Schools! We have an innovative platform, EduManage, to support identity and data management. Are you available for a quick introduction call?"
-      },
-      {
-        "type": "outbound",
-        "content": "I hope this email finds you well! Just following up to see if there’s any interest in learning how EduManage can streamline processes at Greenwood County."
-      },
-      {
-        "type": "outbound",
-        "content": "I wanted to circle back one more time to offer a demo of EduManage. Let me know if you’re interested!"
-      }
-    ]
-  },
-  {
-    "company": "Hillside School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi Hillside team! I’d like to share EduManage, a powerful identity management solution for schools. Are you open to a short meeting to explore how it might help your district?"
-      },
-      {
-        "type": "outbound",
-        "content": "Just following up to see if there’s any interest in EduManage. Let me know if there’s a convenient time for a quick call!"
-      },
-      {
-        "type": "outbound",
-        "content": "One last check-in—please feel free to reach out if you’d like to explore EduManage for Hillside’s needs."
-      }
-    ]
-  },
-  {
-    "company": "Maple Ridge District Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Maple Ridge team! We’ve created EduManage, a platform to streamline data management. Would you be interested in learning more?"
-      },
-      {
-        "type": "outbound",
-        "content": "Just following up to see if you had a chance to review EduManage. Let me know if we can schedule a quick chat!"
-      }
-    ]
-  },
-  {
-    "company": "Northfield School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Northfield! We specialize in education technology and would love to show you EduManage, our data management solution. Could we schedule a demo?"
-      },
-      {
-        "type": "outbound",
-        "content": "Following up on my previous message—our EduManage platform might be a great fit for Northfield. Let me know if you’re available to chat!"
-      },
-      {
-        "type": "outbound",
-        "content": "Checking in one last time to see if there’s any interest in EduManage for Northfield. Reach out if we can assist!"
-      }
-    ]
-  },
-  {
-    "company": "Oakwood School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Oakwood team! EduManage is a great tool for identity and data management in schools. Would you like a demo to see how it works?"
-      },
-      {
-        "type": "outbound",
-        "content": "Just following up to see if Oakwood might be interested in EduManage. Let me know if there’s a time that works to discuss!"
-      }
-    ]
-  },
-  {
-    "company": "Clear Lake Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Clear Lake Schools! We’re offering a new solution, EduManage, for identity management in schools. Do you have 15 minutes for an introductory call?"
-      },
-      {
-        "type": "outbound",
-        "content": "Following up to see if you might be interested in EduManage. It’s a great fit for streamlining processes—let me know if you’d like more information!"
-      },
-      {
-        "type": "outbound",
-        "content": "Just a final check-in to see if there’s any interest in EduManage. We’re here if you have any questions!"
-      }
-    ]
-  },
-  {
-    "company": "Fairview District Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi Fairview team! I’d love to introduce EduManage, a platform to manage student data seamlessly. Could we set up a brief call to discuss?"
-      },
-      {
-        "type": "outbound",
-        "content": "Following up to see if EduManage might be a good fit for Fairview. Please let me know if there’s a good time to chat!"
-      }
-    ]
-  },
-  {
-    "company": "Riverbend School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Riverbend! We’ve created EduManage to support schools with identity and data management. Would you like to schedule a demo?"
-      },
-      {
-        "type": "outbound",
-        "content": "I hope all is well! I’m reaching out to follow up on my previous email. Let me know if you’d like to discuss EduManage in detail."
-      },
-      {
-        "type": "outbound",
-        "content": "Just reaching out one final time—please feel free to reply if there’s any interest in EduManage for Riverbend!"
-      }
-    ]
-  },
-  {
-    "company": "Redwood City School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Redwood City team! We’re excited to introduce EduManage, a solution for identity and data management. Could we schedule a brief demo to discuss?"
-      },
-      {
-        "type": "outbound",
-        "content": "Just checking in to see if you’re interested in learning about EduManage. Let me know if there’s a convenient time to chat!"
-      }
-    ]
-  },
-  {
-    "company": "Lakeshore District Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi Lakeshore team! EduManage is a fantastic tool for identity management. Are you available for a quick chat to discuss how it could benefit Lakeshore?"
-      },
-      {
-        "type": "outbound",
-        "content": "I wanted to follow up to see if you’d had a chance to consider EduManage. Let me know if there’s a good time to connect!"
-      },
-      {
-        "type": "outbound",
-        "content": "One last check-in—if there’s any interest in EduManage, please feel free to reach out!"
-      }
-    ]
-  },
-  {
-    "company": "Westwood School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Westwood team! I’d like to introduce EduManage, a platform for managing data in schools. Could we set up a brief call to explore it?"
-      },
-      {
-        "type": "outbound",
-        "content": "Just following up to see if EduManage might be of interest to Westwood. Let me know if there’s a convenient time to chat!"
-      }
-    ]
-  },
-  {
-    "company": "Sunnyvale Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Sunnyvale! We’d like to show you EduManage, our data management solution tailored for schools. Would you have a few minutes to chat about it?"
-      },
-      {
-        "type": "outbound",
-        "content": "Following up to see if there’s any interest in learning more about EduManage. Feel free to reach out if there’s a convenient time to connect!"
-      },
-      {
-        "type": "outbound",
-        "content": "Just a final touchpoint—let me know if there’s any interest in EduManage for Sunnyvale!"
-      }
-    ]
-  },
-  {
-    "company": "Riverside School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Good morning Riverside SD, we offer a product that can streamline your student identity management while ensuring data security. May we schedule a call?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello! Could you share some documentation on the integration with existing student information systems?"
-      },
-      {
-        "type": "outbound",
-        "content": "Of course. I'll send over a technical brief, and we can discuss any specific concerns on a call."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks! We are particularly concerned with reducing the time IT spends on password resets."
-      },
-      {
-        "type": "outbound",
-        "content": "Our system has automated password recovery and account syncing features that reduce IT involvement. How about a demo this week?"
-      },
-      {
-        "type": "inbound",
-        "content": "That sounds ideal. Let's proceed with the demo."
-      },
-      {
-        "type": "outbound",
-        "content": "Excellent! After the demo, I’ll outline pricing and support options."
-      },
-      {
-        "type": "inbound",
-        "content": "Following the demo, we're interested in moving forward. Please send the contract details."
-      }
-    ]
-  },
-  {
-    "company": "Sunnyvale Charter Schools",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Sunnyvale Charter Schools! We’d love to show you how our product could improve data security and streamline student account management. May we set up a meeting?"
-      },
-      {
-        "type": "inbound",
-        "content": "We're intrigued. However, we need to know more about your data recovery and backup options."
-      },
-      {
-        "type": "outbound",
-        "content": "Great question! We offer regular data backups with a robust recovery process. Shall we review these in a demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, please. And could you also discuss account de-provisioning for graduating students?"
-      },
-      {
-        "type": "outbound",
-        "content": "Definitely. Our tool automatically manages account lifecycle events like graduation. Let’s review this and other features in the demo."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you. After the demo, we’re interested in moving forward with a purchase."
-      }
-    ]
-  },
-  {
-    "company": "Hillsborough Independent School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi Hillsborough ISD, we specialize in secure data and identity management tailored for school districts. Would you be open to a quick call to discuss?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, but before we commit to a call, could you clarify your pricing structure?"
-      },
-      {
-        "type": "outbound",
-        "content": "Our pricing is based on student count, with discounts for multi-year commitments. May we discuss this further on a call?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for clarifying. We'd also like to understand the flexibility of user permissions within your system."
-      },
-      {
-        "type": "outbound",
-        "content": "Of course! We offer customizable roles and permissions, so admins can control access. Let's review this in a full demo session."
-      },
-      {
-        "type": "inbound",
-        "content": "Perfect. We’re interested in scheduling a demo soon."
-      },
-      {
-        "type": "outbound",
-        "content": "Great! I'll send over scheduling options."
-      },
-      {
-        "type": "inbound",
-        "content": "After the demo, we're ready to proceed. Please send over the next steps."
-      }
-    ]
-  },
-  {
-    "company": "Westfield County School District",
-    "purchased": true,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Westfield County SD! Our solution can improve student data security and simplify account management. Would you like a demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks for reaching out! Before a demo, could you explain how your product manages parent/guardian access?"
-      },
-      {
-        "type": "outbound",
-        "content": "Certainly! We provide customizable parent/guardian access with activity visibility. This feature is covered extensively in our demo."
-      },
-      {
-        "type": "inbound",
-        "content": "Sounds good. We’d also like information on training and onboarding support for our staff."
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely, our package includes comprehensive training and ongoing support. Can we set a demo date?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, let’s proceed with a demo."
-      },
-      {
-        "type": "outbound",
-        "content": "Perfect. I'll confirm a time and send over demo details."
-      },
-      {
-        "type": "inbound",
-        "content": "After the demo, we're ready to purchase. Please provide the contract."
-      }
-    ]
-  },
-  {
-    "company": "North Valley School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi there, this is Jenna from EdTech Solutions. We’d love to introduce our data management platform tailored for K-12 districts. Would you be open to a brief overview?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello Jenna, thanks for reaching out. Could you provide more specifics on how your platform integrates with existing systems, like our SIS and LMS?"
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely! Our platform offers direct API integrations with most SIS and LMS providers, ensuring seamless data syncs. Additionally, we offer customization for unique requirements. Do you have any specific systems in mind?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, we use PowerSchool SIS and Canvas LMS. Do you support these?"
-      },
-      {
-        "type": "outbound",
-        "content": "Yes, both are fully compatible! I’d be happy to set up a demo if you'd like a closer look at how the integration works."
-      },
-      {
-        "type": "inbound",
-        "content": "A demo sounds good. We're particularly interested in data privacy features. What certifications do you hold?"
-      },
-      {
-        "type": "outbound",
-        "content": "We prioritize student data security and are FERPA and COPPA compliant. Our system also supports secure, role-based access controls. Shall we proceed with the demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, please. We'd like to understand more about reporting features as well."
-      },
-      {
-        "type": "outbound",
-        "content": "During the demo, I’ll showcase our customizable reporting options. Looking forward to it!"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the demo. We’re concerned about cost, especially with budget constraints. Is there flexibility in pricing?"
-      },
-      {
-        "type": "outbound",
-        "content": "I understand completely. We offer flexible pricing and discounts for multi-year contracts. Could this work within your budget?"
-      },
-      {
-        "type": "inbound",
-        "content": "Appreciate the details, but we may have to revisit next year when our funding increases. Thank you for your time!"
-      }
-    ]
-  },
-  {
-    "company": "Greenwood Public Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello! I’m Ben from EdTech Solutions. We offer a streamlined identity management tool that’s ideal for K-12 schools. Would you be interested in learning more?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Ben, thanks for reaching out. Can you tell us about how your solution helps with onboarding new students each year?"
-      },
-      {
-        "type": "outbound",
-        "content": "Great question! Our platform automates the onboarding process by syncing with student enrollment data, creating accounts instantly. Would this address your needs?"
-      },
-      {
-        "type": "inbound",
-        "content": "Potentially, yes. We're curious about scalability and how the system handles large data loads during peak periods."
-      },
-      {
-        "type": "outbound",
-        "content": "Our platform is cloud-based, so it scales dynamically based on demand. Even during peak enrollment, performance remains stable. Shall I schedule a demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "A demo would be great. We’re also interested in backup and recovery options."
-      },
-      {
-        "type": "outbound",
-        "content": "I’ll cover those during the demo. We offer automated daily backups with a 30-day retention policy. Looking forward to it!"
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks for the info. We were hoping for a longer backup retention policy, though. Any flexibility?"
-      },
-      {
-        "type": "outbound",
-        "content": "We can discuss an extended retention plan at an additional cost. Would that be manageable?"
-      },
-      {
-        "type": "inbound",
-        "content": "It might be outside our budget this year. We’ll keep you in mind for future reference."
-      }
-    ]
-  },
-  {
-    "company": "Sunrise Unified School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Good morning! I’m Alex from EdTech Solutions, and I’d love to share our data management platform with you. Is now a good time for a quick overview?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Alex, could you share details on your identity verification features? We're prioritizing student safety and data integrity."
-      },
-      {
-        "type": "outbound",
-        "content": "Of course! Our platform includes two-factor authentication, secure password policies, and automated account audits. Would you like a full breakdown?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, please. We're also concerned about how it manages user permissions across different roles."
-      },
-      {
-        "type": "outbound",
-        "content": "We offer a role-based access control system that’s customizable by district needs. Should we set up a time to go over this in detail?"
-      },
-      {
-        "type": "inbound",
-        "content": "That would be helpful. One last question—what’s the policy for device management and access logging?"
-      },
-      {
-        "type": "outbound",
-        "content": "Device management includes remote logout and daily access logs. I’ll cover these in the demo as well."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the demo! Unfortunately, we're unable to proceed this fiscal year due to budget priorities."
-      }
-    ]
-  },
-  {
-    "company": "Lakeview Charter School Network",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, this is Leah from EdTech Solutions. We specialize in identity and data management for K-12 schools. Would you like an introduction?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Leah, we’re intrigued. How does your product manage student data across multiple charter schools within a network?"
-      },
-      {
-        "type": "outbound",
-        "content": "Our platform centralizes data across all locations, allowing network-wide visibility while ensuring data segregation where needed. Could we discuss this further?"
-      },
-      {
-        "type": "inbound",
-        "content": "Yes, a meeting would be good. We're also interested in your compliance certifications."
-      },
-      {
-        "type": "outbound",
-        "content": "We comply with FERPA, COPPA, and have certifications in ISO/IEC 27001. Let’s discuss more in our call!"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the call, Leah. We’ll get back to you once we review our priorities."
-      },
-      {
-        "type": "outbound",
-        "content": "We’re here to answer any further questions or offer flexible pricing to meet your needs."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks! We're focusing on other investments for now but will keep you in mind."
-      }
-    ]
-  },
-  {
-    "company": "Hillside School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi, this is Sarah from EdTech Solutions. We have a platform that makes identity and data management easy for K-12 schools. Could we schedule a call?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello Sarah, can you send over documentation on data migration? We’re interested but have a complex data environment."
-      },
-      {
-        "type": "outbound",
-        "content": "Certainly! I’ll attach our migration process document. We offer end-to-end support to ensure a smooth transition."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks. We’d also like to know about your support options for IT staff and non-technical users."
-      },
-      {
-        "type": "outbound",
-        "content": "We offer 24/7 support, including live chat, email, and phone options. We also have user training sessions. Could we provide a demo for your team?"
-      },
-      {
-        "type": "inbound",
-        "content": "A demo would be helpful. We’d also like to understand your platform’s scalability as we anticipate growth."
-      },
-      {
-        "type": "outbound",
-        "content": "Our platform is cloud-based and scales dynamically to accommodate growing student and staff data. Let’s cover this in the demo."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the information. We may revisit next year as our current platform still meets our needs."
-      }
-    ]
-  },
-  {
-    "company": "Greenwood Unified School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Greenwood Unified Team, we’d love to introduce you to our identity and data management solution tailored for K-12 schools. Could we schedule a brief demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for reaching out. We’re currently satisfied with our current provider but appreciate the offer."
-      },
-      {
-        "type": "outbound",
-        "content": "We understand! Please keep us in mind for any future needs. We’d be happy to assist."
-      }
-    ]
-  },
-  {
-    "company": "Harbor Valley Public Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Good morning Harbor Valley Schools, our platform provides seamless integration with educational tools. Can we schedule a meeting to discuss how it could benefit your district?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you, but our team has recently made upgrades to our current system and is not looking for additional solutions at this time."
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for letting us know. We’d love to stay in touch for any future opportunities!"
-      }
-    ]
-  },
-  {
-    "company": "Lakeside District Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Lakeside District, we’re reaching out to offer a modern, secure solution for managing student data and identity. Can we discuss this further?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks, but our IT department has implemented recent changes, so we’re not currently exploring new tools."
-      },
-      {
-        "type": "outbound",
-        "content": "Understood. If your needs change, please let us know. We’d be happy to help."
-      }
-    ]
-  },
-  {
-    "company": "Sunnyfield School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi Sunnyfield Team, we offer an integrated solution for school districts to securely manage data. Could we schedule a brief meeting to show you how it works?"
-      },
-      {
-        "type": "inbound",
-        "content": "We appreciate the offer, but we’re not interested at this time."
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for your response. We’d love to stay connected for any future needs."
-      }
-    ]
-  },
-  {
-    "company": "Westview Education District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Westview, we’d love to introduce you to our K-12 identity and data management tool that could greatly simplify data security. When would be a convenient time to connect?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you, but we’ve recently signed on with another provider."
-      },
-      {
-        "type": "outbound",
-        "content": "We understand. If things change, please keep us in mind. We’d be happy to help in the future!"
-      }
-    ]
-  },
-  {
-    "company": "Silver Lake School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Good morning Silver Lake District, our platform is designed to streamline identity and data management for districts like yours. Could we set up a brief demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks, but our current setup is working well for us at the moment."
-      },
-      {
-        "type": "outbound",
-        "content": "Understood, thanks for your time. We’re here if you need any support down the line."
-      }
-    ]
-  },
-  {
-    "company": "Maplewood Public Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Maplewood Schools, we offer an advanced solution for managing student data and identities. Are you available for a quick introductory call?"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you, but we’re not interested in additional tools at this time."
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for considering us. Please reach out if your needs change."
-      }
-    ]
-  },
-  {
-    "company": "Northfield Public Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Dr. Stone, I hope this message finds you well! I wanted to introduce you to EduManage, our identity and data management tool designed specifically for school districts like Northfield. Could we set up a call to discuss how EduManage can simplify your data handling?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello, thank you for reaching out. I’m interested in learning more about EduManage and how it could be integrated with our current systems. Could we set up a time for a call next week?"
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for your interest, Dr. Stone! How does Thursday at 11:00 AM work for you? Please let me know, and I’ll send a calendar invite."
-      },
-      {
-        "type": "inbound",
-        "content": "Thursday at 11:00 AM works perfectly. Looking forward to it."
-      },
-      {
-        "type": "outbound",
-        "content": "Great! Here’s the calendar invite, and feel free to reply with any specific questions you may have before the call. Speak soon!"
-      },
-      {
-        "type": "inbound",
-        "content": "Unfortunately, we’re in the process of reviewing multiple vendors, and our current focus has shifted. I’ll reach out if we decide to pursue further discussions. Thank you for your time."
-      }
-    ]
-  },
-  {
-    "company": "Sunnyvale Unified School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Mr. Chavez, I’m reaching out from EduManage with information on our identity management solution for K-12 schools. Our tool helps unify access to learning platforms. Would you be open to a quick call to learn more about how it can support Sunnyvale USD?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi, I appreciate your reaching out. We’re currently evaluating new tools for managing student and teacher data, and this sounds interesting. Could we schedule a call to dive deeper?"
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely, Mr. Chavez! How does Wednesday afternoon at 2:00 PM work for you?"
-      },
-      {
-        "type": "inbound",
-        "content": "Wednesday at 2:00 PM works well. Please send over any materials we can review beforehand."
-      },
-      {
-        "type": "outbound",
-        "content": "Perfect, I’ll send over a brief overview document along with the calendar invite. Thank you, and I look forward to our call!"
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the document. After an internal discussion, we’ve decided to postpone any new purchases for now, as we are focused on maintaining our current solutions."
-      }
-    ]
-  },
-  {
-    "company": "Greenville School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi Mrs. Lane, I’m from EduManage, a company specializing in K-12 data and identity management. We’d love to demonstrate how our platform can help streamline Greenville School District’s access to educational tools. Would you be open to a call?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi! Yes, I’d like to learn more about your services. Can we schedule a call next Monday afternoon?"
-      },
-      {
-        "type": "outbound",
-        "content": "Monday afternoon sounds great! How about 3:00 PM? Let me know, and I’ll send over a meeting invite."
-      },
-      {
-        "type": "inbound",
-        "content": "3:00 PM works, thank you. Please send over any preliminary information you have on EduManage’s features."
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you, Mrs. Lane! I’ve sent the invite and included a document outlining our key features. Looking forward to our discussion!"
-      },
-      {
-        "type": "inbound",
-        "content": "We had a productive call, but after further consideration, our board has decided not to move forward with any new software at this time. Thank you for the information provided."
-      }
-    ]
-  },
-  {
-    "company": "Pinecrest School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Pinecrest, we specialize in identity and data management solutions tailored for schools. Can we set up a call to discuss how we can assist?"
-      },
-      {
-        "type": "inbound",
-        "content": "We appreciate the offer, but we’re not looking for a change at the moment."
-      },
-      {
-        "type": "outbound",
-        "content": "No problem at all. Please feel free to reach out anytime!"
-      }
-    ]
-  },
-  {
-    "company": "Springfield Unified School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, this is Jamie from EduTech Solutions. We offer a comprehensive identity and data management system specifically designed for school districts. Would you be interested in learning more?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Jamie, thanks for reaching out. Could you provide details on how your product integrates with existing student information systems?"
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely. Our system integrates seamlessly with popular SIS platforms like PowerSchool and Skyward, ensuring a smooth transition. Would you like a demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "That's helpful. We're also interested in data security measures and student privacy policies. Can you elaborate on those?"
-      },
-      {
-        "type": "outbound",
-        "content": "Of course. We comply with FERPA and COPPA regulations and use end-to-end encryption to secure all student data. Additionally, we provide access control to limit data visibility by role."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks, Jamie. We'll need to review this information with our IT department. We'll reach out if we have further questions."
-      },
-      {
-        "type": "outbound",
-        "content": "Sounds great! Let me know if I can provide any more info. I'll check in next week to follow up."
-      }
-    ]
-  },
-  {
-    "company": "Lakeside School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi there, this is Maria from EduTech Solutions. We have a robust tool to simplify student data management. Would Lakeside School District be interested in discussing this further?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Maria, thank you for reaching out. Could you tell me if your solution supports multi-factor authentication for student and staff logins?"
-      },
-      {
-        "type": "outbound",
-        "content": "Yes, we do support multi-factor authentication, ensuring an extra layer of security for users. In addition, we offer a dashboard that allows admin users to manage authentication settings."
-      },
-      {
-        "type": "inbound",
-        "content": "Good to know. Does your product integrate with Google Classroom, as that's a key tool for us?"
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely! Our system offers full Google Classroom integration, and users can access it via single sign-on as well. It should save your teachers a lot of time."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks, Maria. We need some time to discuss internally before making a decision. We'll contact you if we decide to proceed."
-      },
-      {
-        "type": "outbound",
-        "content": "Understood. If there's anything else I can provide, just let me know. Thanks for considering EduTech Solutions!"
-      }
-    ]
-  },
-  {
-    "company": "Greenwood Public Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi, this is Daniel from EduTech Solutions. We help school districts simplify data management with our tailored tools. I'd love to set up a call to discuss Greenwood Public Schools' needs."
-      },
-      {
-        "type": "inbound",
-        "content": "Hello Daniel, thanks for reaching out. Could you provide information on the analytics features your product offers?"
-      },
-      {
-        "type": "outbound",
-        "content": "Certainly! Our system includes customizable dashboards and real-time analytics that give insights into student performance, attendance, and engagement trends."
-      },
-      {
-        "type": "inbound",
-        "content": "Interesting. How easy is it to export data from your system for state reporting purposes?"
-      },
-      {
-        "type": "outbound",
-        "content": "We support easy data export in multiple formats (CSV, XLS), and our team can help with any custom reporting requirements. It's built to simplify reporting processes."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you. We're currently evaluating multiple vendors, so we'll need some time to make a final decision."
-      },
-      {
-        "type": "outbound",
-        "content": "I understand! Please let me know if you have additional questions. I’ll reach out in a few weeks to check in. Thanks again for considering us!"
-      }
-    ]
-  },
-  {
-    "company": "Riverside City Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, this is Samantha from EduTech Solutions. We specialize in identity and data management for school districts and would love to discuss how we can support Riverside City Schools."
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Samantha, thank you. We’d like to know if your system supports parental access for monitoring their children's data."
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely. Parents can securely log in to view their child's information, including grades, attendance, and assignments. All access is governed by strict security protocols."
-      },
-      {
-        "type": "inbound",
-        "content": "That’s great to hear. How customizable is the user interface? We have certain branding standards we need to adhere to."
-      },
-      {
-        "type": "outbound",
-        "content": "Our UI can be customized with your district’s colors and logos, making it consistent with your branding. We can also tailor certain features to your needs."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks, Samantha. We’re currently evaluating options and will get back to you if we choose to proceed."
-      },
-      {
-        "type": "outbound",
-        "content": "Thank you for your time! Please feel free to reach out if any other questions come up. Wishing you the best with your evaluation process!"
-      },
-      {
-        "type": "outbound",
-        "content": "Just following up to see if you have any questions!"
-      }
-    ]
-  },
-  {
-    "company": "Springfield Public Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, this is Anna from EduManage. We’d love to discuss how our tools can simplify identity management for Springfield Public Schools. Are you available for a quick call this week?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Anna, thanks for reaching out! We’re currently using another solution and aren’t looking to make any changes at this time."
-      },
-      {
-        "type": "outbound",
-        "content": "Thanks for letting me know! If you’re ever open to exploring other options, please don’t hesitate to reach out."
-      }
-    ]
-  },
-  {
-    "company": "Cedar Valley School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi there, I’m Max from EduManage. We provide identity management tools that could streamline login processes for Cedar Valley. Are you interested in a demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello Max, thanks, but we’ve got it covered. We’re not looking to add new tools right now."
-      },
-      {
-        "type": "outbound",
-        "content": "Understood, thanks for your time! Feel free to reach out in the future if anything changes."
-      }
-    ]
-  },
-  {
-    "company": "Greenfield Unified School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi, this is Sam from EduManage. I wanted to see if Greenfield Unified could benefit from our centralized student data management system. Do you have 15 minutes to connect?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello Sam, we’re not looking to make any adjustments to our current setup, but thank you for the offer."
-      },
-      {
-        "type": "outbound",
-        "content": "Thanks for letting me know. I’m happy to send some resources if you’d like to keep us in mind for the future."
-      }
-    ]
-  },
-  {
-    "company": "Lakeside School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, I’m reaching out from EduManage. We offer tools that make data access secure and easy for schools. Would Lakeside School District be open to learning more?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi there, we’re currently set with another provider and aren’t considering alternatives at this time."
-      },
-      {
-        "type": "outbound",
-        "content": "Thanks for your response. Feel free to reach out if you’d like to discuss in the future."
-      }
-    ]
-  },
-  {
-    "company": "Mountain Ridge School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, this is Sarah from EduManage. We specialize in tools to enhance data security for school districts. Are you interested in a quick overview of our offerings?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Sarah, thanks, but we’re not currently evaluating new data management options."
-      },
-      {
-        "type": "outbound",
-        "content": "Understood, thank you for your time! Let us know if there’s ever a future need."
-      }
-    ]
-  },
-  {
-    "company": "Westfield School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, I’m Jake from EduManage. We provide identity management services that streamline access for students and teachers. Would Westfield School District be interested in a demo?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello Jake, thanks for reaching out, but we’re not looking to add new services right now."
-      },
-      {
-        "type": "outbound",
-        "content": "Got it, thank you for the update! Please don’t hesitate to reach out if your needs change."
-      }
-    ]
-  },
-  {
-    "company": "Brighton Public Schools",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi, I’m Lucy from EduManage. Our software can simplify student data access across platforms. Could we schedule a quick chat to explore how it could support Brighton Public Schools?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Lucy, we’re not currently looking for additional tools, but thanks for reaching out."
-      },
-      {
-        "type": "outbound",
-        "content": "Thanks for letting me know! Don’t hesitate to reach out if you’d like to revisit in the future."
-      }
-    ]
-  },
-  {
-    "company": "Silver Lake School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, I’m Jamie from EduManage. We provide a single sign-on solution that simplifies data management. Would Silver Lake be open to learning more?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Jamie, thanks, but we’re satisfied with our current provider at this time."
-      },
-      {
-        "type": "outbound",
-        "content": "Thanks for the update! Feel free to reach out if there’s ever a future interest."
-      }
-    ]
-  },
-  {
-    "company": "Maple Grove School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi there, I’m Alex from EduManage. I’m reaching out to see if Maple Grove could benefit from our student data management tools. Would you be open to a short call?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello Alex, thanks, but we don’t have a need for this type of service at the moment."
-      },
-      {
-        "type": "outbound",
-        "content": "Understood, thanks for letting me know. Keep us in mind if anything changes!"
-      }
-    ]
-  },
-  {
-    "company": "Oakwood School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello, this is Emily from EduManage. I’d love to discuss how our identity management tools could support Oakwood School District’s needs. Do you have 15 minutes for a quick overview?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hi Emily, I appreciate the offer, but we’re not in the market for new tools right now."
-      },
-      {
-        "type": "outbound",
-        "content": "Thanks for your response! Don’t hesitate to reach out if there’s ever a need to revisit."
-      }
-    ]
-  },
-  {
-    "company": "Greenwood Unified School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hello Greenwood Unified School District team, we’d love to introduce you to our identity and data management tool designed specifically for K-12 schools. Let us know if you’re available for a call this week."
-      },
-      {
-        "type": "inbound",
-        "content": "Hi, thank you for reaching out. We are interested in learning more. Could we schedule a call this Thursday at 10 AM?"
-      },
-      {
-        "type": "outbound",
-        "content": "Absolutely! Thursday at 10 AM works great. I’ll send a calendar invite shortly. Looking forward to discussing how we can support Greenwood Unified."
-      },
-      {
-        "type": "inbound",
-        "content": "Thanks for the call today! We were wondering if your tool supports single sign-on integration with Google Workspace."
-      },
-      {
-        "type": "outbound",
-        "content": "Yes, our platform integrates seamlessly with Google Workspace and other commonly used education tools to streamline user access and management."
-      },
-      {
-        "type": "inbound",
-        "content": "Great to hear. Could you also provide some case studies or examples of other districts using this tool?"
-      },
-      {
-        "type": "outbound",
-        "content": "Of course! I’ve attached a few case studies from districts similar in size and demographics to Greenwood Unified. Please let us know if you have any further questions."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you. Lastly, what would onboarding and training look like for our team?"
-      },
-      {
-        "type": "outbound",
-        "content": "We offer comprehensive onboarding sessions and continuous support to ensure smooth implementation. Our support team is available for any technical assistance as well."
-      },
-      {
-        "type": "inbound",
-        "content": "We appreciate the detailed information. We'll review and get back to you if we're ready to move forward. Thank you."
-      }
-    ]
-  },
-  {
-    "company": "Lakeside Independent School District",
-    "purchased": false,
-    "emails": [
-      {
-        "type": "outbound",
-        "content": "Hi Lakeside ISD team, we’d love to introduce you to our education data management platform, which simplifies user identity management. Would you be available for a quick call this week?"
-      },
-      {
-        "type": "inbound",
-        "content": "Hello, yes, we’d be interested in learning more. Could we schedule something for Tuesday afternoon?"
-      },
-      {
-        "type": "outbound",
-        "content": "Tuesday afternoon works perfectly. I’ll send an invite for 3 PM. Looking forward to discussing how our platform could benefit Lakeside ISD."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you for the presentation. Could you clarify the pricing structure and any potential discounts for larger districts?"
-      },
-      {
-        "type": "outbound",
-        "content": "Certainly! Pricing is based on district size, with discounts available for larger implementations. I’ll send over a pricing sheet for your reference."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you. Could you also confirm whether your tool supports rostering data in compliance with state requirements?"
-      },
-      {
-        "type": "outbound",
-        "content": "Yes, our platform is fully compliant with state rostering standards, ensuring data security and easy access across educational tools."
-      },
-      {
-        "type": "inbound",
-        "content": "That’s reassuring. Lastly, is there a sandbox environment where we can test the platform?"
-      },
-      {
-        "type": "outbound",
-        "content": "Yes, we can set up a demo environment for you and your team to test features and workflows before any commitment."
-      },
-      {
-        "type": "inbound",
-        "content": "Thank you, that would be helpful. We’ll review this with our tech team and reach out if we’re interested in moving forward. We appreciate all the information!"
-      }
-    ]
-  }
+    {
+        "company": "Greenwood Unified School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Greenwood USD team, we're excited to share how our product can simplify identity and data management for your district. Would you be interested in a demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for reaching out! A demo sounds great. Could you provide an overview of how this integrates with Google Classroom?"
+            },
+            {
+                "type": "outbound",
+                "content": "Certainly! Our tool has a seamless integration with Google Classroom, allowing single sign-on for students and staff. During the demo, we can walk through this feature in detail."
+            },
+            {
+                "type": "inbound",
+                "content": "Sounds good. Could you also explain how student data is protected, especially in light of FERPA requirements?"
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely. We use industry-standard encryption and access control, and we're fully FERPA-compliant. Let's schedule a time for a live walkthrough."
+            },
+            {
+                "type": "inbound",
+                "content": "Perfect. We'd also like to understand the reporting capabilities for monitoring student usage."
+            },
+            {
+                "type": "outbound",
+                "content": "We offer detailed reporting on student activity, broken down by tool usage, login history, and more. Let's discuss these details in the demo."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you! Let's go ahead with the purchase after the demo. The reporting and compliance aspects seem to be exactly what we're looking for."
+            }
+        ],
+        "datefirstcontacted": "2023-10-03",
+        "proposedvalue": 621505,
+        "interestlevel": 5,
+        "dateclosed": "2023-10-09"
+    },
+    {
+        "company": "Riverview School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Riverview School District Team, we're excited to introduce our identity and data management solutions tailored for school districts. Are you interested in setting up a quick call to learn more?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello, thank you for reaching out. We'd love to set up a call to discuss this further. When would you be available?"
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you! We're available tomorrow at 10 AM. Does that work?"
+            },
+            {
+                "type": "inbound",
+                "content": "That works perfectly. Thank you!"
+            },
+            {
+                "type": "outbound",
+                "content": "Great! We'll send over the meeting invite. Looking forward to discussing how our solutions can support Riverview School District."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks for the call! We\u2019d like to move forward with the purchase."
+            }
+        ],
+        "datefirstcontacted": "2023-03-21",
+        "proposedvalue": 358499,
+        "interestlevel": 9,
+        "dateclosed": "2023-03-23"
+    },
+    {
+        "company": "Mountain View School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Mountain View School District, our team provides a complete identity and data management solution for K-12 education. Would you be interested in a quick chat to explore how we can help streamline your processes?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for reaching out. We're interested and would like to schedule a call this week. Could you share available times?"
+            },
+            {
+                "type": "outbound",
+                "content": "We're available Thursday at 3 PM. Does that work for your team?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, Thursday at 3 PM is perfect. Thank you for arranging it!"
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for the great conversation today! We'll follow up with contract details to finalize your purchase."
+            },
+            {
+                "type": "inbound",
+                "content": "Perfect! We\u2019re looking forward to getting started."
+            }
+        ],
+        "datefirstcontacted": "2024-09-19",
+        "proposedvalue": 236020,
+        "interestlevel": 3,
+        "dateclosed": "2024-10-18"
+    },
+    {
+        "company": "Springfield Unified School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Dr. Robinson, I\u2019m reaching out to introduce our comprehensive data and identity management solution designed specifically for school districts. This product integrates seamlessly with your existing tools and enhances security for student data. Would you be open to a brief call to discuss this further?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for reaching out. We\u2019re always interested in solutions that help manage data efficiently. I\u2019d be open to a call. Could we set one up for Thursday afternoon?"
+            },
+            {
+                "type": "outbound",
+                "content": "Thursday works great! I'll send over a calendar invite for 2 PM. Looking forward to discussing how our solution could support Springfield Unified\u2019s needs."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you! In advance, could you send over any documentation on integration with tools we already use, like Google Classroom and Canvas?"
+            },
+            {
+                "type": "outbound",
+                "content": "Certainly, Dr. Robinson. Attached is a document detailing our integration capabilities with popular platforms, including Google Classroom and Canvas. Let me know if there are any other specific tools you\u2019d like details on."
+            },
+            {
+                "type": "inbound",
+                "content": "Got it, thanks. We\u2019ll review this material before our meeting."
+            },
+            {
+                "type": "outbound",
+                "content": "Following up after our call, here\u2019s the additional information on student data protection protocols we discussed. Please don\u2019t hesitate to reach out with further questions."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you! One more thing: how often are your security audits conducted, and is there any support for onboarding our IT staff?"
+            },
+            {
+                "type": "outbound",
+                "content": "We conduct security audits quarterly and offer a comprehensive onboarding program for IT staff, including live training sessions. We\u2019ll ensure a smooth transition for your team."
+            },
+            {
+                "type": "inbound",
+                "content": "Appreciate the info. We\u2019re ready to move forward with the purchase."
+            },
+            {
+                "type": "outbound",
+                "content": "That\u2019s wonderful news! I\u2019ll guide you through the final steps to get everything set up. We\u2019re thrilled to have Springfield Unified on board!"
+            }
+        ],
+        "datefirstcontacted": "2023-08-19",
+        "proposedvalue": 285516,
+        "interestlevel": 9,
+        "dateclosed": "2023-10-16"
+    },
+    {
+        "company": "Northview Public Schools",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Good morning, Mr. Larson. I wanted to reach out regarding our identity and data management solution for school districts. Our platform has been designed with ease of use and security in mind, ensuring a streamlined experience for both students and faculty. Could we schedule a call to explore this further?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi, thank you for reaching out! I\u2019d be interested in learning more. Let\u2019s set up a call. Do you have availability early next week?"
+            },
+            {
+                "type": "outbound",
+                "content": "Monday at 10 AM works perfectly. I\u2019ll send over a calendar invitation."
+            },
+            {
+                "type": "inbound",
+                "content": "Got it. Could you also provide some case studies or references from similar-sized districts?"
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely! I\u2019ve attached some case studies and reference contacts from districts of comparable size. Please let me know if there\u2019s anything specific you\u2019d like us to highlight on our call."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks, I\u2019ll review these materials."
+            },
+            {
+                "type": "outbound",
+                "content": "Following up on our call, here are details on user account management and automated data syncing with SIS. Let me know if there\u2019s anything else you need."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks for this info! One question: how does your solution handle custom data fields for students?"
+            },
+            {
+                "type": "outbound",
+                "content": "Great question! Our platform allows for extensive customization, including custom data fields for unique requirements. We can dive deeper into this during the onboarding process."
+            },
+            {
+                "type": "inbound",
+                "content": "Understood, that\u2019s reassuring. Another question: do you offer a sandbox environment for testing?"
+            },
+            {
+                "type": "outbound",
+                "content": "Yes, we do provide a sandbox environment to ensure your team is comfortable with the platform before going live."
+            },
+            {
+                "type": "inbound",
+                "content": "Fantastic. After reviewing everything, we\u2019re ready to move forward with Northview\u2019s purchase."
+            },
+            {
+                "type": "outbound",
+                "content": "Excellent! We\u2019ll start the onboarding process right away. Welcome to our network, Northview Public Schools!"
+            }
+        ],
+        "datefirstcontacted": "2023-02-15",
+        "proposedvalue": 599221,
+        "interestlevel": 7,
+        "dateclosed": "2023-03-16"
+    },
+    {
+        "company": "East Valley Unified School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi East Valley Unified, we specialize in education-focused identity and data management solutions. Would your team be open to a brief call to discuss how our platform can benefit your district?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello, we're very interested in setting up a call. When would work for you?"
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you! How about tomorrow at 2 PM?"
+            },
+            {
+                "type": "inbound",
+                "content": "Tomorrow at 2 PM is perfect. See you then!"
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for the insightful call! We'll send over the next steps for your purchase."
+            },
+            {
+                "type": "inbound",
+                "content": "Sounds great, we\u2019re excited to proceed with the purchase. Thanks!"
+            }
+        ],
+        "datefirstcontacted": "2024-09-09",
+        "proposedvalue": 202703,
+        "interestlevel": 5,
+        "dateclosed": "2024-09-14"
+    },
+    {
+        "company": "Springfield Unified School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, I'm reaching out to introduce our identity and data management solution, tailored for K-12 public school districts. We'd love to discuss how it can benefit Springfield Unified. Would you be open to setting up a call?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for reaching out. Yes, we\u2019re interested in learning more. Could we schedule a call for next week?"
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely! How does Tuesday at 2 pm work?"
+            },
+            {
+                "type": "inbound",
+                "content": "Tuesday works great. See you then."
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for the call today! Following up with additional documentation on security features and how we integrate with existing systems."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the information. A few more questions: How will student data be protected, and is there any additional training required for our IT team?"
+            },
+            {
+                "type": "outbound",
+                "content": "Great questions! Our system is FERPA-compliant, and we provide optional training for IT staff. Would it help if I arranged a demo for your team?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, a demo would be helpful. Let\u2019s schedule it for later this week."
+            },
+            {
+                "type": "outbound",
+                "content": "Demo scheduled for Friday. Looking forward to it!"
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks for the demo. We\u2019re ready to move forward with the purchase. Could you send over the contract?"
+            },
+            {
+                "type": "outbound",
+                "content": "Congratulations on the decision! Sending the contract shortly. Let us know if you have any final questions."
+            }
+        ],
+        "datefirstcontacted": "2024-03-19",
+        "proposedvalue": 711954,
+        "interestlevel": 5,
+        "dateclosed": "2024-03-29"
+    },
+    {
+        "company": "Westfield County Schools",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, I wanted to reach out to share information about our data management platform designed for school districts like Westfield County. Would you be interested in a brief call to discuss?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, we\u2019re interested. Could we set up a call for more details?"
+            },
+            {
+                "type": "outbound",
+                "content": "How about Wednesday at 10 am?"
+            },
+            {
+                "type": "inbound",
+                "content": "That works. Thank you!"
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for the call! Here are some resources on our system\u2019s integration capabilities and customization options."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the resources. How does your platform handle user authentication, and what are the support options during implementation?"
+            },
+            {
+                "type": "outbound",
+                "content": "Our platform offers multi-factor authentication and integrates with district single sign-on systems. We also offer dedicated support throughout implementation and beyond."
+            },
+            {
+                "type": "inbound",
+                "content": "That sounds promising. One last question: how flexible is the system in terms of access permissions for different staff roles?"
+            },
+            {
+                "type": "outbound",
+                "content": "Our system supports flexible role-based access, allowing for precise control over permissions. Would you like a demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, let\u2019s do a demo."
+            },
+            {
+                "type": "outbound",
+                "content": "Demo is set for Friday. Looking forward to it!"
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks for the demo. We\u2019re ready to move forward. Could you send the purchase details?"
+            },
+            {
+                "type": "outbound",
+                "content": "Congratulations on your decision! Sending the purchase contract over now."
+            }
+        ],
+        "datefirstcontacted": "2023-08-24",
+        "proposedvalue": 523939,
+        "interestlevel": 10,
+        "dateclosed": "2023-10-18"
+    },
+    {
+        "company": "Lakeside Regional Schools",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, I\u2019d like to introduce you to our comprehensive data management platform designed for school districts. Would you be open to a quick call to explore how it can support Lakeside Regional Schools?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello, yes, we\u2019d be open to a call. Could we arrange one for next week?"
+            },
+            {
+                "type": "outbound",
+                "content": "Sure! Does Monday at 11 am work?"
+            },
+            {
+                "type": "inbound",
+                "content": "Monday works. Looking forward to it."
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for the call! Following up with an overview of key features and security measures."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you. We have a few additional questions: How often are system updates provided, and are there backup options available?"
+            },
+            {
+                "type": "outbound",
+                "content": "We perform monthly updates, and backups are automated daily, stored securely. Would you like to discuss implementation specifics?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, that would be helpful. Could we also see a demo?"
+            },
+            {
+                "type": "outbound",
+                "content": "Definitely. I\u2019ll set up a demo for Thursday."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the demo. We\u2019d like to proceed with purchasing the platform. Could you send over the agreement?"
+            },
+            {
+                "type": "outbound",
+                "content": "Wonderful news! Sending over the agreement now. Please reach out with any final questions."
+            }
+        ],
+        "datefirstcontacted": "2024-04-09",
+        "proposedvalue": 805572,
+        "interestlevel": 10,
+        "dateclosed": "2024-05-11"
+    },
+    {
+        "company": "Lakeside School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Lakeside School District, our team offers a streamlined identity and data management solution designed for schools. Are you available for a quick call to discuss how we can support your needs?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, we\u2019d be interested in discussing this. Can we set up a call this week?"
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for your interest! We're available Friday at 11 AM. Would that work for your team?"
+            },
+            {
+                "type": "inbound",
+                "content": "Friday at 11 AM works well. Thank you!"
+            },
+            {
+                "type": "outbound",
+                "content": "Thanks for the call today! We\u2019ll send over the contract details to finalize your purchase."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you! We\u2019re ready to move forward with the purchase."
+            }
+        ],
+        "datefirstcontacted": "2023-04-17",
+        "proposedvalue": 124964,
+        "interestlevel": 6,
+        "dateclosed": "2023-05-27"
+    },
+    {
+        "company": "Springfield Unified School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, Springfield Unified team! We're excited to introduce EduManage, a solution to streamline identity and data management across your educational tools. Are you available for a brief demo next week?"
+            },
+            {
+                "type": "outbound",
+                "content": "Just following up on my previous email\u2014our EduManage platform could help Springfield Unified save time and resources. Let me know if there\u2019s a good time to chat!"
+            },
+            {
+                "type": "outbound",
+                "content": "I wanted to reach out one last time in case you were interested in our identity and data management solutions. Please don\u2019t hesitate to reach out if you\u2019d like to learn more."
+            }
+        ],
+        "datefirstcontacted": "2024-10-14",
+        "proposedvalue": 104194,
+        "interestlevel": 4
+    },
+    {
+        "company": "Pine Valley School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Pine Valley team! I\u2019d like to introduce EduManage, a comprehensive solution for identity and data management in education. Do you have time for a quick call to discuss?"
+            },
+            {
+                "type": "outbound",
+                "content": "Just checking in on my previous message\u2014our platform could be a great fit for Pine Valley. Let me know if there\u2019s any interest in a demo."
+            }
+        ],
+        "datefirstcontacted": "2024-10-21",
+        "proposedvalue": 990960,
+        "interestlevel": 9
+    },
+    {
+        "company": "Greenwood County Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Greenwood County Schools! We have an innovative platform, EduManage, to support identity and data management. Are you available for a quick introduction call?"
+            },
+            {
+                "type": "outbound",
+                "content": "I hope this email finds you well! Just following up to see if there\u2019s any interest in learning how EduManage can streamline processes at Greenwood County."
+            },
+            {
+                "type": "outbound",
+                "content": "I wanted to circle back one more time to offer a demo of EduManage. Let me know if you\u2019re interested!"
+            }
+        ],
+        "datefirstcontacted": "2023-10-15",
+        "proposedvalue": 137864,
+        "interestlevel": 10
+    },
+    {
+        "company": "Hillside School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi Hillside team! I\u2019d like to share EduManage, a powerful identity management solution for schools. Are you open to a short meeting to explore how it might help your district?"
+            },
+            {
+                "type": "outbound",
+                "content": "Just following up to see if there\u2019s any interest in EduManage. Let me know if there\u2019s a convenient time for a quick call!"
+            },
+            {
+                "type": "outbound",
+                "content": "One last check-in\u2014please feel free to reach out if you\u2019d like to explore EduManage for Hillside\u2019s needs."
+            }
+        ],
+        "datefirstcontacted": "2024-10-02",
+        "proposedvalue": 611528,
+        "interestlevel": 1
+    },
+    {
+        "company": "Maple Ridge District Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Maple Ridge team! We\u2019ve created EduManage, a platform to streamline data management. Would you be interested in learning more?"
+            },
+            {
+                "type": "outbound",
+                "content": "Just following up to see if you had a chance to review EduManage. Let me know if we can schedule a quick chat!"
+            }
+        ],
+        "datefirstcontacted": "2024-05-04",
+        "proposedvalue": 665609,
+        "interestlevel": 8
+    },
+    {
+        "company": "Northfield School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Northfield! We specialize in education technology and would love to show you EduManage, our data management solution. Could we schedule a demo?"
+            },
+            {
+                "type": "outbound",
+                "content": "Following up on my previous message\u2014our EduManage platform might be a great fit for Northfield. Let me know if you\u2019re available to chat!"
+            },
+            {
+                "type": "outbound",
+                "content": "Checking in one last time to see if there\u2019s any interest in EduManage for Northfield. Reach out if we can assist!"
+            }
+        ],
+        "datefirstcontacted": "2024-04-12",
+        "proposedvalue": 994631,
+        "interestlevel": 2
+    },
+    {
+        "company": "Oakwood School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Oakwood team! EduManage is a great tool for identity and data management in schools. Would you like a demo to see how it works?"
+            },
+            {
+                "type": "outbound",
+                "content": "Just following up to see if Oakwood might be interested in EduManage. Let me know if there\u2019s a time that works to discuss!"
+            }
+        ],
+        "datefirstcontacted": "2023-09-28",
+        "proposedvalue": 191507,
+        "interestlevel": 5
+    },
+    {
+        "company": "Clear Lake Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Clear Lake Schools! We\u2019re offering a new solution, EduManage, for identity management in schools. Do you have 15 minutes for an introductory call?"
+            },
+            {
+                "type": "outbound",
+                "content": "Following up to see if you might be interested in EduManage. It\u2019s a great fit for streamlining processes\u2014let me know if you\u2019d like more information!"
+            },
+            {
+                "type": "outbound",
+                "content": "Just a final check-in to see if there\u2019s any interest in EduManage. We\u2019re here if you have any questions!"
+            }
+        ],
+        "datefirstcontacted": "2023-11-07",
+        "proposedvalue": 346269,
+        "interestlevel": 1
+    },
+    {
+        "company": "Fairview District Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi Fairview team! I\u2019d love to introduce EduManage, a platform to manage student data seamlessly. Could we set up a brief call to discuss?"
+            },
+            {
+                "type": "outbound",
+                "content": "Following up to see if EduManage might be a good fit for Fairview. Please let me know if there\u2019s a good time to chat!"
+            }
+        ],
+        "datefirstcontacted": "2023-12-18",
+        "proposedvalue": 837163,
+        "interestlevel": 10
+    },
+    {
+        "company": "Riverbend School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Riverbend! We\u2019ve created EduManage to support schools with identity and data management. Would you like to schedule a demo?"
+            },
+            {
+                "type": "outbound",
+                "content": "I hope all is well! I\u2019m reaching out to follow up on my previous email. Let me know if you\u2019d like to discuss EduManage in detail."
+            },
+            {
+                "type": "outbound",
+                "content": "Just reaching out one final time\u2014please feel free to reply if there\u2019s any interest in EduManage for Riverbend!"
+            }
+        ],
+        "datefirstcontacted": "2023-04-18",
+        "proposedvalue": 160739,
+        "interestlevel": 3
+    },
+    {
+        "company": "Redwood City School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Redwood City team! We\u2019re excited to introduce EduManage, a solution for identity and data management. Could we schedule a brief demo to discuss?"
+            },
+            {
+                "type": "outbound",
+                "content": "Just checking in to see if you\u2019re interested in learning about EduManage. Let me know if there\u2019s a convenient time to chat!"
+            }
+        ],
+        "datefirstcontacted": "2023-04-12",
+        "proposedvalue": 476208,
+        "interestlevel": 8
+    },
+    {
+        "company": "Lakeshore District Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi Lakeshore team! EduManage is a fantastic tool for identity management. Are you available for a quick chat to discuss how it could benefit Lakeshore?"
+            },
+            {
+                "type": "outbound",
+                "content": "I wanted to follow up to see if you\u2019d had a chance to consider EduManage. Let me know if there\u2019s a good time to connect!"
+            },
+            {
+                "type": "outbound",
+                "content": "One last check-in\u2014if there\u2019s any interest in EduManage, please feel free to reach out!"
+            }
+        ],
+        "datefirstcontacted": "2024-06-08",
+        "proposedvalue": 116140,
+        "interestlevel": 3
+    },
+    {
+        "company": "Westwood School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Westwood team! I\u2019d like to introduce EduManage, a platform for managing data in schools. Could we set up a brief call to explore it?"
+            },
+            {
+                "type": "outbound",
+                "content": "Just following up to see if EduManage might be of interest to Westwood. Let me know if there\u2019s a convenient time to chat!"
+            }
+        ],
+        "datefirstcontacted": "2024-04-14",
+        "proposedvalue": 894189,
+        "interestlevel": 3
+    },
+    {
+        "company": "Sunnyvale Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Sunnyvale! We\u2019d like to show you EduManage, our data management solution tailored for schools. Would you have a few minutes to chat about it?"
+            },
+            {
+                "type": "outbound",
+                "content": "Following up to see if there\u2019s any interest in learning more about EduManage. Feel free to reach out if there\u2019s a convenient time to connect!"
+            },
+            {
+                "type": "outbound",
+                "content": "Just a final touchpoint\u2014let me know if there\u2019s any interest in EduManage for Sunnyvale!"
+            }
+        ],
+        "datefirstcontacted": "2024-02-02",
+        "proposedvalue": 58970,
+        "interestlevel": 1
+    },
+    {
+        "company": "Riverside School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Good morning Riverside SD, we offer a product that can streamline your student identity management while ensuring data security. May we schedule a call?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello! Could you share some documentation on the integration with existing student information systems?"
+            },
+            {
+                "type": "outbound",
+                "content": "Of course. I'll send over a technical brief, and we can discuss any specific concerns on a call."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks! We are particularly concerned with reducing the time IT spends on password resets."
+            },
+            {
+                "type": "outbound",
+                "content": "Our system has automated password recovery and account syncing features that reduce IT involvement. How about a demo this week?"
+            },
+            {
+                "type": "inbound",
+                "content": "That sounds ideal. Let's proceed with the demo."
+            },
+            {
+                "type": "outbound",
+                "content": "Excellent! After the demo, I\u2019ll outline pricing and support options."
+            },
+            {
+                "type": "inbound",
+                "content": "Following the demo, we're interested in moving forward. Please send the contract details."
+            }
+        ],
+        "datefirstcontacted": "2024-05-17",
+        "proposedvalue": 124684,
+        "interestlevel": 9,
+        "dateclosed": "2024-07-02"
+    },
+    {
+        "company": "Sunnyvale Charter Schools",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Sunnyvale Charter Schools! We\u2019d love to show you how our product could improve data security and streamline student account management. May we set up a meeting?"
+            },
+            {
+                "type": "inbound",
+                "content": "We're intrigued. However, we need to know more about your data recovery and backup options."
+            },
+            {
+                "type": "outbound",
+                "content": "Great question! We offer regular data backups with a robust recovery process. Shall we review these in a demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, please. And could you also discuss account de-provisioning for graduating students?"
+            },
+            {
+                "type": "outbound",
+                "content": "Definitely. Our tool automatically manages account lifecycle events like graduation. Let\u2019s review this and other features in the demo."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you. After the demo, we\u2019re interested in moving forward with a purchase."
+            }
+        ],
+        "datefirstcontacted": "2023-11-17",
+        "proposedvalue": 520597,
+        "interestlevel": 3,
+        "dateclosed": "2023-12-29"
+    },
+    {
+        "company": "Hillsborough Independent School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi Hillsborough ISD, we specialize in secure data and identity management tailored for school districts. Would you be open to a quick call to discuss?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, but before we commit to a call, could you clarify your pricing structure?"
+            },
+            {
+                "type": "outbound",
+                "content": "Our pricing is based on student count, with discounts for multi-year commitments. May we discuss this further on a call?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for clarifying. We'd also like to understand the flexibility of user permissions within your system."
+            },
+            {
+                "type": "outbound",
+                "content": "Of course! We offer customizable roles and permissions, so admins can control access. Let's review this in a full demo session."
+            },
+            {
+                "type": "inbound",
+                "content": "Perfect. We\u2019re interested in scheduling a demo soon."
+            },
+            {
+                "type": "outbound",
+                "content": "Great! I'll send over scheduling options."
+            },
+            {
+                "type": "inbound",
+                "content": "After the demo, we're ready to proceed. Please send over the next steps."
+            }
+        ],
+        "datefirstcontacted": "2024-06-03",
+        "proposedvalue": 715369,
+        "interestlevel": 7,
+        "dateclosed": "2024-06-28"
+    },
+    {
+        "company": "Westfield County School District",
+        "purchased": true,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Westfield County SD! Our solution can improve student data security and simplify account management. Would you like a demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks for reaching out! Before a demo, could you explain how your product manages parent/guardian access?"
+            },
+            {
+                "type": "outbound",
+                "content": "Certainly! We provide customizable parent/guardian access with activity visibility. This feature is covered extensively in our demo."
+            },
+            {
+                "type": "inbound",
+                "content": "Sounds good. We\u2019d also like information on training and onboarding support for our staff."
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely, our package includes comprehensive training and ongoing support. Can we set a demo date?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, let\u2019s proceed with a demo."
+            },
+            {
+                "type": "outbound",
+                "content": "Perfect. I'll confirm a time and send over demo details."
+            },
+            {
+                "type": "inbound",
+                "content": "After the demo, we're ready to purchase. Please provide the contract."
+            }
+        ],
+        "datefirstcontacted": "2023-01-28",
+        "proposedvalue": 550651,
+        "interestlevel": 7,
+        "dateclosed": "2023-03-24"
+    },
+    {
+        "company": "North Valley School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi there, this is Jenna from EdTech Solutions. We\u2019d love to introduce our data management platform tailored for K-12 districts. Would you be open to a brief overview?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello Jenna, thanks for reaching out. Could you provide more specifics on how your platform integrates with existing systems, like our SIS and LMS?"
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely! Our platform offers direct API integrations with most SIS and LMS providers, ensuring seamless data syncs. Additionally, we offer customization for unique requirements. Do you have any specific systems in mind?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, we use PowerSchool SIS and Canvas LMS. Do you support these?"
+            },
+            {
+                "type": "outbound",
+                "content": "Yes, both are fully compatible! I\u2019d be happy to set up a demo if you'd like a closer look at how the integration works."
+            },
+            {
+                "type": "inbound",
+                "content": "A demo sounds good. We're particularly interested in data privacy features. What certifications do you hold?"
+            },
+            {
+                "type": "outbound",
+                "content": "We prioritize student data security and are FERPA and COPPA compliant. Our system also supports secure, role-based access controls. Shall we proceed with the demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, please. We'd like to understand more about reporting features as well."
+            },
+            {
+                "type": "outbound",
+                "content": "During the demo, I\u2019ll showcase our customizable reporting options. Looking forward to it!"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the demo. We\u2019re concerned about cost, especially with budget constraints. Is there flexibility in pricing?"
+            },
+            {
+                "type": "outbound",
+                "content": "I understand completely. We offer flexible pricing and discounts for multi-year contracts. Could this work within your budget?"
+            },
+            {
+                "type": "inbound",
+                "content": "Appreciate the details, but we may have to revisit next year when our funding increases. Thank you for your time!"
+            }
+        ],
+        "datefirstcontacted": "2023-03-31",
+        "proposedvalue": 361394,
+        "interestlevel": 4
+    },
+    {
+        "company": "Greenwood Public Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello! I\u2019m Ben from EdTech Solutions. We offer a streamlined identity management tool that\u2019s ideal for K-12 schools. Would you be interested in learning more?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Ben, thanks for reaching out. Can you tell us about how your solution helps with onboarding new students each year?"
+            },
+            {
+                "type": "outbound",
+                "content": "Great question! Our platform automates the onboarding process by syncing with student enrollment data, creating accounts instantly. Would this address your needs?"
+            },
+            {
+                "type": "inbound",
+                "content": "Potentially, yes. We're curious about scalability and how the system handles large data loads during peak periods."
+            },
+            {
+                "type": "outbound",
+                "content": "Our platform is cloud-based, so it scales dynamically based on demand. Even during peak enrollment, performance remains stable. Shall I schedule a demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "A demo would be great. We\u2019re also interested in backup and recovery options."
+            },
+            {
+                "type": "outbound",
+                "content": "I\u2019ll cover those during the demo. We offer automated daily backups with a 30-day retention policy. Looking forward to it!"
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks for the info. We were hoping for a longer backup retention policy, though. Any flexibility?"
+            },
+            {
+                "type": "outbound",
+                "content": "We can discuss an extended retention plan at an additional cost. Would that be manageable?"
+            },
+            {
+                "type": "inbound",
+                "content": "It might be outside our budget this year. We\u2019ll keep you in mind for future reference."
+            }
+        ],
+        "datefirstcontacted": "2023-12-14",
+        "proposedvalue": 166506,
+        "interestlevel": 1
+    },
+    {
+        "company": "Sunrise Unified School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Good morning! I\u2019m Alex from EdTech Solutions, and I\u2019d love to share our data management platform with you. Is now a good time for a quick overview?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Alex, could you share details on your identity verification features? We're prioritizing student safety and data integrity."
+            },
+            {
+                "type": "outbound",
+                "content": "Of course! Our platform includes two-factor authentication, secure password policies, and automated account audits. Would you like a full breakdown?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, please. We're also concerned about how it manages user permissions across different roles."
+            },
+            {
+                "type": "outbound",
+                "content": "We offer a role-based access control system that\u2019s customizable by district needs. Should we set up a time to go over this in detail?"
+            },
+            {
+                "type": "inbound",
+                "content": "That would be helpful. One last question\u2014what\u2019s the policy for device management and access logging?"
+            },
+            {
+                "type": "outbound",
+                "content": "Device management includes remote logout and daily access logs. I\u2019ll cover these in the demo as well."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the demo! Unfortunately, we're unable to proceed this fiscal year due to budget priorities."
+            }
+        ],
+        "datefirstcontacted": "2024-07-09",
+        "proposedvalue": 131380,
+        "interestlevel": 6
+    },
+    {
+        "company": "Lakeview Charter School Network",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, this is Leah from EdTech Solutions. We specialize in identity and data management for K-12 schools. Would you like an introduction?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Leah, we\u2019re intrigued. How does your product manage student data across multiple charter schools within a network?"
+            },
+            {
+                "type": "outbound",
+                "content": "Our platform centralizes data across all locations, allowing network-wide visibility while ensuring data segregation where needed. Could we discuss this further?"
+            },
+            {
+                "type": "inbound",
+                "content": "Yes, a meeting would be good. We're also interested in your compliance certifications."
+            },
+            {
+                "type": "outbound",
+                "content": "We comply with FERPA, COPPA, and have certifications in ISO/IEC 27001. Let\u2019s discuss more in our call!"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the call, Leah. We\u2019ll get back to you once we review our priorities."
+            },
+            {
+                "type": "outbound",
+                "content": "We\u2019re here to answer any further questions or offer flexible pricing to meet your needs."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks! We're focusing on other investments for now but will keep you in mind."
+            }
+        ],
+        "datefirstcontacted": "2023-09-19",
+        "proposedvalue": 389968,
+        "interestlevel": 2
+    },
+    {
+        "company": "Hillside School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi, this is Sarah from EdTech Solutions. We have a platform that makes identity and data management easy for K-12 schools. Could we schedule a call?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello Sarah, can you send over documentation on data migration? We\u2019re interested but have a complex data environment."
+            },
+            {
+                "type": "outbound",
+                "content": "Certainly! I\u2019ll attach our migration process document. We offer end-to-end support to ensure a smooth transition."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks. We\u2019d also like to know about your support options for IT staff and non-technical users."
+            },
+            {
+                "type": "outbound",
+                "content": "We offer 24/7 support, including live chat, email, and phone options. We also have user training sessions. Could we provide a demo for your team?"
+            },
+            {
+                "type": "inbound",
+                "content": "A demo would be helpful. We\u2019d also like to understand your platform\u2019s scalability as we anticipate growth."
+            },
+            {
+                "type": "outbound",
+                "content": "Our platform is cloud-based and scales dynamically to accommodate growing student and staff data. Let\u2019s cover this in the demo."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the information. We may revisit next year as our current platform still meets our needs."
+            }
+        ],
+        "datefirstcontacted": "2024-06-18",
+        "proposedvalue": 444827,
+        "interestlevel": 1
+    },
+    {
+        "company": "Greenwood Unified School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Greenwood Unified Team, we\u2019d love to introduce you to our identity and data management solution tailored for K-12 schools. Could we schedule a brief demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for reaching out. We\u2019re currently satisfied with our current provider but appreciate the offer."
+            },
+            {
+                "type": "outbound",
+                "content": "We understand! Please keep us in mind for any future needs. We\u2019d be happy to assist."
+            }
+        ],
+        "datefirstcontacted": "2023-01-06",
+        "proposedvalue": 396568,
+        "interestlevel": 6
+    },
+    {
+        "company": "Harbor Valley Public Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Good morning Harbor Valley Schools, our platform provides seamless integration with educational tools. Can we schedule a meeting to discuss how it could benefit your district?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you, but our team has recently made upgrades to our current system and is not looking for additional solutions at this time."
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for letting us know. We\u2019d love to stay in touch for any future opportunities!"
+            }
+        ],
+        "datefirstcontacted": "2024-08-24",
+        "proposedvalue": 724310,
+        "interestlevel": 2
+    },
+    {
+        "company": "Lakeside District Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Lakeside District, we\u2019re reaching out to offer a modern, secure solution for managing student data and identity. Can we discuss this further?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks, but our IT department has implemented recent changes, so we\u2019re not currently exploring new tools."
+            },
+            {
+                "type": "outbound",
+                "content": "Understood. If your needs change, please let us know. We\u2019d be happy to help."
+            }
+        ],
+        "datefirstcontacted": "2024-02-12",
+        "proposedvalue": 102377,
+        "interestlevel": 2
+    },
+    {
+        "company": "Sunnyfield School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi Sunnyfield Team, we offer an integrated solution for school districts to securely manage data. Could we schedule a brief meeting to show you how it works?"
+            },
+            {
+                "type": "inbound",
+                "content": "We appreciate the offer, but we\u2019re not interested at this time."
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for your response. We\u2019d love to stay connected for any future needs."
+            }
+        ],
+        "datefirstcontacted": "2023-10-18",
+        "proposedvalue": 361160,
+        "interestlevel": 9
+    },
+    {
+        "company": "Westview Education District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Westview, we\u2019d love to introduce you to our K-12 identity and data management tool that could greatly simplify data security. When would be a convenient time to connect?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you, but we\u2019ve recently signed on with another provider."
+            },
+            {
+                "type": "outbound",
+                "content": "We understand. If things change, please keep us in mind. We\u2019d be happy to help in the future!"
+            }
+        ],
+        "datefirstcontacted": "2023-08-25",
+        "proposedvalue": 513489,
+        "interestlevel": 3
+    },
+    {
+        "company": "Silver Lake School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Good morning Silver Lake District, our platform is designed to streamline identity and data management for districts like yours. Could we set up a brief demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks, but our current setup is working well for us at the moment."
+            },
+            {
+                "type": "outbound",
+                "content": "Understood, thanks for your time. We\u2019re here if you need any support down the line."
+            }
+        ],
+        "datefirstcontacted": "2023-11-20",
+        "proposedvalue": 872028,
+        "interestlevel": 1
+    },
+    {
+        "company": "Maplewood Public Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Maplewood Schools, we offer an advanced solution for managing student data and identities. Are you available for a quick introductory call?"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you, but we\u2019re not interested in additional tools at this time."
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for considering us. Please reach out if your needs change."
+            }
+        ],
+        "datefirstcontacted": "2024-05-08",
+        "proposedvalue": 363055,
+        "interestlevel": 9
+    },
+    {
+        "company": "Northfield Public Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Dr. Stone, I hope this message finds you well! I wanted to introduce you to EduManage, our identity and data management tool designed specifically for school districts like Northfield. Could we set up a call to discuss how EduManage can simplify your data handling?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello, thank you for reaching out. I\u2019m interested in learning more about EduManage and how it could be integrated with our current systems. Could we set up a time for a call next week?"
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for your interest, Dr. Stone! How does Thursday at 11:00 AM work for you? Please let me know, and I\u2019ll send a calendar invite."
+            },
+            {
+                "type": "inbound",
+                "content": "Thursday at 11:00 AM works perfectly. Looking forward to it."
+            },
+            {
+                "type": "outbound",
+                "content": "Great! Here\u2019s the calendar invite, and feel free to reply with any specific questions you may have before the call. Speak soon!"
+            },
+            {
+                "type": "inbound",
+                "content": "Unfortunately, we\u2019re in the process of reviewing multiple vendors, and our current focus has shifted. I\u2019ll reach out if we decide to pursue further discussions. Thank you for your time."
+            }
+        ],
+        "datefirstcontacted": "2023-08-01",
+        "proposedvalue": 875104,
+        "interestlevel": 6
+    },
+    {
+        "company": "Sunnyvale Unified School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Mr. Chavez, I\u2019m reaching out from EduManage with information on our identity management solution for K-12 schools. Our tool helps unify access to learning platforms. Would you be open to a quick call to learn more about how it can support Sunnyvale USD?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi, I appreciate your reaching out. We\u2019re currently evaluating new tools for managing student and teacher data, and this sounds interesting. Could we schedule a call to dive deeper?"
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely, Mr. Chavez! How does Wednesday afternoon at 2:00 PM work for you?"
+            },
+            {
+                "type": "inbound",
+                "content": "Wednesday at 2:00 PM works well. Please send over any materials we can review beforehand."
+            },
+            {
+                "type": "outbound",
+                "content": "Perfect, I\u2019ll send over a brief overview document along with the calendar invite. Thank you, and I look forward to our call!"
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the document. After an internal discussion, we\u2019ve decided to postpone any new purchases for now, as we are focused on maintaining our current solutions."
+            }
+        ],
+        "datefirstcontacted": "2024-04-26",
+        "proposedvalue": 660059,
+        "interestlevel": 7
+    },
+    {
+        "company": "Greenville School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi Mrs. Lane, I\u2019m from EduManage, a company specializing in K-12 data and identity management. We\u2019d love to demonstrate how our platform can help streamline Greenville School District\u2019s access to educational tools. Would you be open to a call?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi! Yes, I\u2019d like to learn more about your services. Can we schedule a call next Monday afternoon?"
+            },
+            {
+                "type": "outbound",
+                "content": "Monday afternoon sounds great! How about 3:00 PM? Let me know, and I\u2019ll send over a meeting invite."
+            },
+            {
+                "type": "inbound",
+                "content": "3:00 PM works, thank you. Please send over any preliminary information you have on EduManage\u2019s features."
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you, Mrs. Lane! I\u2019ve sent the invite and included a document outlining our key features. Looking forward to our discussion!"
+            },
+            {
+                "type": "inbound",
+                "content": "We had a productive call, but after further consideration, our board has decided not to move forward with any new software at this time. Thank you for the information provided."
+            }
+        ],
+        "datefirstcontacted": "2024-09-10",
+        "proposedvalue": 592887,
+        "interestlevel": 6
+    },
+    {
+        "company": "Pinecrest School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Pinecrest, we specialize in identity and data management solutions tailored for schools. Can we set up a call to discuss how we can assist?"
+            },
+            {
+                "type": "inbound",
+                "content": "We appreciate the offer, but we\u2019re not looking for a change at the moment."
+            },
+            {
+                "type": "outbound",
+                "content": "No problem at all. Please feel free to reach out anytime!"
+            }
+        ],
+        "datefirstcontacted": "2023-07-25",
+        "proposedvalue": 4261,
+        "interestlevel": 3
+    },
+    {
+        "company": "Springfield Unified School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, this is Jamie from EduTech Solutions. We offer a comprehensive identity and data management system specifically designed for school districts. Would you be interested in learning more?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Jamie, thanks for reaching out. Could you provide details on how your product integrates with existing student information systems?"
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely. Our system integrates seamlessly with popular SIS platforms like PowerSchool and Skyward, ensuring a smooth transition. Would you like a demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "That's helpful. We're also interested in data security measures and student privacy policies. Can you elaborate on those?"
+            },
+            {
+                "type": "outbound",
+                "content": "Of course. We comply with FERPA and COPPA regulations and use end-to-end encryption to secure all student data. Additionally, we provide access control to limit data visibility by role."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks, Jamie. We'll need to review this information with our IT department. We'll reach out if we have further questions."
+            },
+            {
+                "type": "outbound",
+                "content": "Sounds great! Let me know if I can provide any more info. I'll check in next week to follow up."
+            }
+        ],
+        "datefirstcontacted": "2023-04-19",
+        "proposedvalue": 653774,
+        "interestlevel": 10
+    },
+    {
+        "company": "Lakeside School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi there, this is Maria from EduTech Solutions. We have a robust tool to simplify student data management. Would Lakeside School District be interested in discussing this further?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Maria, thank you for reaching out. Could you tell me if your solution supports multi-factor authentication for student and staff logins?"
+            },
+            {
+                "type": "outbound",
+                "content": "Yes, we do support multi-factor authentication, ensuring an extra layer of security for users. In addition, we offer a dashboard that allows admin users to manage authentication settings."
+            },
+            {
+                "type": "inbound",
+                "content": "Good to know. Does your product integrate with Google Classroom, as that's a key tool for us?"
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely! Our system offers full Google Classroom integration, and users can access it via single sign-on as well. It should save your teachers a lot of time."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks, Maria. We need some time to discuss internally before making a decision. We'll contact you if we decide to proceed."
+            },
+            {
+                "type": "outbound",
+                "content": "Understood. If there's anything else I can provide, just let me know. Thanks for considering EduTech Solutions!"
+            }
+        ],
+        "datefirstcontacted": "2024-09-02",
+        "proposedvalue": 263712,
+        "interestlevel": 4
+    },
+    {
+        "company": "Greenwood Public Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi, this is Daniel from EduTech Solutions. We help school districts simplify data management with our tailored tools. I'd love to set up a call to discuss Greenwood Public Schools' needs."
+            },
+            {
+                "type": "inbound",
+                "content": "Hello Daniel, thanks for reaching out. Could you provide information on the analytics features your product offers?"
+            },
+            {
+                "type": "outbound",
+                "content": "Certainly! Our system includes customizable dashboards and real-time analytics that give insights into student performance, attendance, and engagement trends."
+            },
+            {
+                "type": "inbound",
+                "content": "Interesting. How easy is it to export data from your system for state reporting purposes?"
+            },
+            {
+                "type": "outbound",
+                "content": "We support easy data export in multiple formats (CSV, XLS), and our team can help with any custom reporting requirements. It's built to simplify reporting processes."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you. We're currently evaluating multiple vendors, so we'll need some time to make a final decision."
+            },
+            {
+                "type": "outbound",
+                "content": "I understand! Please let me know if you have additional questions. I\u2019ll reach out in a few weeks to check in. Thanks again for considering us!"
+            }
+        ],
+        "datefirstcontacted": "2024-08-26",
+        "proposedvalue": 171659,
+        "interestlevel": 6
+    },
+    {
+        "company": "Riverside City Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, this is Samantha from EduTech Solutions. We specialize in identity and data management for school districts and would love to discuss how we can support Riverside City Schools."
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Samantha, thank you. We\u2019d like to know if your system supports parental access for monitoring their children's data."
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely. Parents can securely log in to view their child's information, including grades, attendance, and assignments. All access is governed by strict security protocols."
+            },
+            {
+                "type": "inbound",
+                "content": "That\u2019s great to hear. How customizable is the user interface? We have certain branding standards we need to adhere to."
+            },
+            {
+                "type": "outbound",
+                "content": "Our UI can be customized with your district\u2019s colors and logos, making it consistent with your branding. We can also tailor certain features to your needs."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks, Samantha. We\u2019re currently evaluating options and will get back to you if we choose to proceed."
+            },
+            {
+                "type": "outbound",
+                "content": "Thank you for your time! Please feel free to reach out if any other questions come up. Wishing you the best with your evaluation process!"
+            },
+            {
+                "type": "outbound",
+                "content": "Just following up to see if you have any questions!"
+            }
+        ],
+        "datefirstcontacted": "2023-06-25",
+        "proposedvalue": 508510,
+        "interestlevel": 5
+    },
+    {
+        "company": "Springfield Public Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, this is Anna from EduManage. We\u2019d love to discuss how our tools can simplify identity management for Springfield Public Schools. Are you available for a quick call this week?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Anna, thanks for reaching out! We\u2019re currently using another solution and aren\u2019t looking to make any changes at this time."
+            },
+            {
+                "type": "outbound",
+                "content": "Thanks for letting me know! If you\u2019re ever open to exploring other options, please don\u2019t hesitate to reach out."
+            }
+        ],
+        "datefirstcontacted": "2024-06-03",
+        "proposedvalue": 546954,
+        "interestlevel": 9
+    },
+    {
+        "company": "Cedar Valley School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi there, I\u2019m Max from EduManage. We provide identity management tools that could streamline login processes for Cedar Valley. Are you interested in a demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello Max, thanks, but we\u2019ve got it covered. We\u2019re not looking to add new tools right now."
+            },
+            {
+                "type": "outbound",
+                "content": "Understood, thanks for your time! Feel free to reach out in the future if anything changes."
+            }
+        ],
+        "datefirstcontacted": "2023-10-05",
+        "proposedvalue": 851353,
+        "interestlevel": 9
+    },
+    {
+        "company": "Greenfield Unified School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi, this is Sam from EduManage. I wanted to see if Greenfield Unified could benefit from our centralized student data management system. Do you have 15 minutes to connect?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello Sam, we\u2019re not looking to make any adjustments to our current setup, but thank you for the offer."
+            },
+            {
+                "type": "outbound",
+                "content": "Thanks for letting me know. I\u2019m happy to send some resources if you\u2019d like to keep us in mind for the future."
+            }
+        ],
+        "datefirstcontacted": "2024-01-28",
+        "proposedvalue": 735816,
+        "interestlevel": 5
+    },
+    {
+        "company": "Lakeside School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, I\u2019m reaching out from EduManage. We offer tools that make data access secure and easy for schools. Would Lakeside School District be open to learning more?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi there, we\u2019re currently set with another provider and aren\u2019t considering alternatives at this time."
+            },
+            {
+                "type": "outbound",
+                "content": "Thanks for your response. Feel free to reach out if you\u2019d like to discuss in the future."
+            }
+        ],
+        "datefirstcontacted": "2023-01-25",
+        "proposedvalue": 403574,
+        "interestlevel": 3
+    },
+    {
+        "company": "Mountain Ridge School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, this is Sarah from EduManage. We specialize in tools to enhance data security for school districts. Are you interested in a quick overview of our offerings?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Sarah, thanks, but we\u2019re not currently evaluating new data management options."
+            },
+            {
+                "type": "outbound",
+                "content": "Understood, thank you for your time! Let us know if there\u2019s ever a future need."
+            }
+        ],
+        "datefirstcontacted": "2024-10-04",
+        "proposedvalue": 30856,
+        "interestlevel": 9
+    },
+    {
+        "company": "Westfield School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, I\u2019m Jake from EduManage. We provide identity management services that streamline access for students and teachers. Would Westfield School District be interested in a demo?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello Jake, thanks for reaching out, but we\u2019re not looking to add new services right now."
+            },
+            {
+                "type": "outbound",
+                "content": "Got it, thank you for the update! Please don\u2019t hesitate to reach out if your needs change."
+            }
+        ],
+        "datefirstcontacted": "2024-06-30",
+        "proposedvalue": 58864,
+        "interestlevel": 5
+    },
+    {
+        "company": "Brighton Public Schools",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi, I\u2019m Lucy from EduManage. Our software can simplify student data access across platforms. Could we schedule a quick chat to explore how it could support Brighton Public Schools?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Lucy, we\u2019re not currently looking for additional tools, but thanks for reaching out."
+            },
+            {
+                "type": "outbound",
+                "content": "Thanks for letting me know! Don\u2019t hesitate to reach out if you\u2019d like to revisit in the future."
+            }
+        ],
+        "datefirstcontacted": "2023-04-03",
+        "proposedvalue": 619637,
+        "interestlevel": 3
+    },
+    {
+        "company": "Silver Lake School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, I\u2019m Jamie from EduManage. We provide a single sign-on solution that simplifies data management. Would Silver Lake be open to learning more?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Jamie, thanks, but we\u2019re satisfied with our current provider at this time."
+            },
+            {
+                "type": "outbound",
+                "content": "Thanks for the update! Feel free to reach out if there\u2019s ever a future interest."
+            }
+        ],
+        "datefirstcontacted": "2023-11-19",
+        "proposedvalue": 292516,
+        "interestlevel": 4
+    },
+    {
+        "company": "Maple Grove School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi there, I\u2019m Alex from EduManage. I\u2019m reaching out to see if Maple Grove could benefit from our student data management tools. Would you be open to a short call?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello Alex, thanks, but we don\u2019t have a need for this type of service at the moment."
+            },
+            {
+                "type": "outbound",
+                "content": "Understood, thanks for letting me know. Keep us in mind if anything changes!"
+            }
+        ],
+        "datefirstcontacted": "2023-04-20",
+        "proposedvalue": 316811,
+        "interestlevel": 9
+    },
+    {
+        "company": "Oakwood School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello, this is Emily from EduManage. I\u2019d love to discuss how our identity management tools could support Oakwood School District\u2019s needs. Do you have 15 minutes for a quick overview?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hi Emily, I appreciate the offer, but we\u2019re not in the market for new tools right now."
+            },
+            {
+                "type": "outbound",
+                "content": "Thanks for your response! Don\u2019t hesitate to reach out if there\u2019s ever a need to revisit."
+            }
+        ],
+        "datefirstcontacted": "2023-11-14",
+        "proposedvalue": 67937,
+        "interestlevel": 5
+    },
+    {
+        "company": "Greenwood Unified School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hello Greenwood Unified School District team, we\u2019d love to introduce you to our identity and data management tool designed specifically for K-12 schools. Let us know if you\u2019re available for a call this week."
+            },
+            {
+                "type": "inbound",
+                "content": "Hi, thank you for reaching out. We are interested in learning more. Could we schedule a call this Thursday at 10 AM?"
+            },
+            {
+                "type": "outbound",
+                "content": "Absolutely! Thursday at 10 AM works great. I\u2019ll send a calendar invite shortly. Looking forward to discussing how we can support Greenwood Unified."
+            },
+            {
+                "type": "inbound",
+                "content": "Thanks for the call today! We were wondering if your tool supports single sign-on integration with Google Workspace."
+            },
+            {
+                "type": "outbound",
+                "content": "Yes, our platform integrates seamlessly with Google Workspace and other commonly used education tools to streamline user access and management."
+            },
+            {
+                "type": "inbound",
+                "content": "Great to hear. Could you also provide some case studies or examples of other districts using this tool?"
+            },
+            {
+                "type": "outbound",
+                "content": "Of course! I\u2019ve attached a few case studies from districts similar in size and demographics to Greenwood Unified. Please let us know if you have any further questions."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you. Lastly, what would onboarding and training look like for our team?"
+            },
+            {
+                "type": "outbound",
+                "content": "We offer comprehensive onboarding sessions and continuous support to ensure smooth implementation. Our support team is available for any technical assistance as well."
+            },
+            {
+                "type": "inbound",
+                "content": "We appreciate the detailed information. We'll review and get back to you if we're ready to move forward. Thank you."
+            }
+        ],
+        "datefirstcontacted": "2023-01-22",
+        "proposedvalue": 179453,
+        "interestlevel": 3
+    },
+    {
+        "company": "Lakeside Independent School District",
+        "purchased": false,
+        "emails": [
+            {
+                "type": "outbound",
+                "content": "Hi Lakeside ISD team, we\u2019d love to introduce you to our education data management platform, which simplifies user identity management. Would you be available for a quick call this week?"
+            },
+            {
+                "type": "inbound",
+                "content": "Hello, yes, we\u2019d be interested in learning more. Could we schedule something for Tuesday afternoon?"
+            },
+            {
+                "type": "outbound",
+                "content": "Tuesday afternoon works perfectly. I\u2019ll send an invite for 3 PM. Looking forward to discussing how our platform could benefit Lakeside ISD."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you for the presentation. Could you clarify the pricing structure and any potential discounts for larger districts?"
+            },
+            {
+                "type": "outbound",
+                "content": "Certainly! Pricing is based on district size, with discounts available for larger implementations. I\u2019ll send over a pricing sheet for your reference."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you. Could you also confirm whether your tool supports rostering data in compliance with state requirements?"
+            },
+            {
+                "type": "outbound",
+                "content": "Yes, our platform is fully compliant with state rostering standards, ensuring data security and easy access across educational tools."
+            },
+            {
+                "type": "inbound",
+                "content": "That\u2019s reassuring. Lastly, is there a sandbox environment where we can test the platform?"
+            },
+            {
+                "type": "outbound",
+                "content": "Yes, we can set up a demo environment for you and your team to test features and workflows before any commitment."
+            },
+            {
+                "type": "inbound",
+                "content": "Thank you, that would be helpful. We\u2019ll review this with our tech team and reach out if we\u2019re interested in moving forward. We appreciate all the information!"
+            }
+        ],
+        "datefirstcontacted": "2023-02-08",
+        "proposedvalue": 165843,
+        "interestlevel": 6
+    }
 ]
