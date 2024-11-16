@@ -1,9 +1,14 @@
-// src/components/Sidebar.js
-
+import { useState } from "react";
 import Link from "next/link";
 import ChatControls from "./ChatControls";
 
 const Sidebar = () => {
+  const [isChatOpen, setIsChatOpen] = useState(false);
+
+  const toggleChat = () => {
+    setIsChatOpen((prev) => !prev);
+  };
+
   return (
     <div className="relative flex flex-col h-[calc(100vh-5rem)] w-full max-w-[20rem] rounded-xl bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
       <div className="p-4 mb-2">
@@ -35,31 +40,35 @@ const Sidebar = () => {
         {/* Add more links similarly */}
       </nav>
 
-      {/* Chat Assistant Section */}
-      {/* Chat Assistant Section */}
-      <div className="mt-auto p-4 bg-gray-50 rounded-lg shadow-inner ml-1 mr-1">
-        <h2 className="text-lg font-semibold text-gray-800 mb-2">
-          Chat Assistant
-        </h2>
-        <div className="flex flex-col gap-4 items-center sm:items-start">
-          {/* Messages Container with Scroll */}
+      {/* Toggle Chat Button */}
+      <button
+        onClick={toggleChat}
+        className="mt-auto px-4 py-2 bg-blue-500 text-white rounded-lg shadow transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:scale-105"
+      >
+        {isChatOpen ? "Close Chat" : "Open Chat"}
+      </button>
+
+      {/* Chat Assistant Popup within Sidebar */}
+      {isChatOpen && (
+        <div className="p-4 bg-gray-50 rounded-lg shadow-inner mt-4">
+          <h2 className="text-lg font-semibold text-gray-800 mb-2">
+            Chat Assistant
+          </h2>
           <div
             id="messages"
             className="mb-4 text-sm text-gray-700 max-h-40 w-full overflow-y-auto p-2 bg-white rounded shadow-inner"
           >
             <p>Enter a message below.</p>
-            <br></br>
             {/* Dynamic messages will go here */}
           </div>
-
           <textarea
             id="input"
             placeholder="Start typing..."
-            className="w-[95%] h-20 p-2 border rounded resize-none text-white-800 -ml-2 -mt-2"
+            className="w-full h-20 p-2 border rounded resize-none text-gray-800 -ml-2"
           ></textarea>
           <ChatControls />
         </div>
-      </div>
+      )}
     </div>
   );
 };
