@@ -65,11 +65,13 @@ const Sidebar = () => {
               </h2>
               <div
                 id="messages"
-                className="mb-4 text-sm text-gray-700 max-h-40 w-full overflow-y-auto p-2 bg-white rounded shadow-inner"
+                className="mb-4 text-sm text-gray-700 w-full overflow-y-auto p-2 bg-white rounded shadow-inner"
+                style={{ height: "300px" }}
               >
                 <p>Enter a message below.</p>
                 {/* Dynamic messages will go here */}
               </div>
+
               <textarea
                 id="input"
                 placeholder="Start typing..."
