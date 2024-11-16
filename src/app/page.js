@@ -15,7 +15,7 @@ export default function Home() {
 
       {/* Main Content */}
       <div className="flex-1 flex flex-col gap-8 p-8">
-        {/* File Upload */ }
+        {/* File Upload */}
         <FileUpload />
         {/* Dashboard Widgets */}
         <DashboardWidgets />

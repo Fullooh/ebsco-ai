@@ -10,7 +10,7 @@ export default function ChatControls() {
   useEffect(() => {
     const fetchLeadsData = async () => {
       try {
-        const response = await fetch("/data"); // Replace with your API endpoint
+        const response = await fetch("/data");
         const data = await response.json();
         setLeadsData(data);
       } catch (error) {
@@ -61,17 +61,17 @@ export default function ChatControls() {
 
     // Combine user input with leads data and task-specific instructions
     const instructions = `
-            Based on the leads data provided, categorize leads that have not converted (i.e., Purchased = FALSE) into categories based on sentiment analysis of their messages.
-            For each category, provide:
-            - Reasons for categorization with examples from their messages.
-            - Suggested next steps.
-            - A sample email template for follow-up if applicable.
-        `;
+      Based on the leads data provided, categorize leads that have not converted (i.e., Purchased = FALSE) into categories based on sentiment analysis of their messages.
+      For each category, provide:
+      - Reasons for categorization with examples from their messages.
+      - Suggested next steps.
+      - A sample email template for follow-up if applicable.
+    `;
     const prompt = `
-            User Input: ${userInput}
-            Leads Data: ${JSON.stringify(leadsData)}
-            Instructions: ${instructions}
-        `;
+      User Input: ${userInput}
+      Leads Data: ${JSON.stringify(leadsData)}
+      Instructions: ${instructions}
+    `;
 
     try {
       const response = await fetch(`/chat`, {
@@ -102,14 +102,11 @@ export default function ChatControls() {
     document.getElementById("input").value = "";
 
     const submitButton = document.getElementById("submit");
-    const miscButton = document.getElementById("misc");
-    miscButton.disabled = true;
     submitButton.disabled = true;
 
     await fetchChatGPTResponse(userInput);
 
     submitButton.disabled = false;
-    miscButton.disabled = false;
   }
 
   return (
@@ -120,12 +117,6 @@ export default function ChatControls() {
         onClick={sendMessage}
       >
         Submit
-      </button>
-      <button
-        id="misc"
-        className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-      >
-        More info
       </button>
       <div id="messages" className="mt-4"></div>
     </div>

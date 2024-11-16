@@ -45,6 +45,11 @@ const DashboardWidgets = () => {
     router.push("/leads"); // Navigate to the /leads page
   };
 
+  // Click handler to navigate to the "Last 6 Months" leads page
+  const handleRecentLeadsClick = () => {
+    router.push("/leads/last-six-months"); // Navigate to the specific page
+  };
+
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
       {/* Total Leads Widget with click and hover effect */}
@@ -62,18 +67,27 @@ const DashboardWidgets = () => {
         </p>
       </div>
 
-      {/* Leads Closed in Last 6 Months Widget */}
-      <div className="bg-white p-6 rounded-lg shadow">
-        <h2 className="text-xl font-semibold text-gray-800">
-          Leads Closed in Last 6 Months
-        </h2>
-        <p className="text-3xl font-bold text-gray-900">{recentLeads}</p>
+      {/* Leads Closed in Last 6 Months Widget with click and hover effect */}
+      <div
+        onClick={handleRecentLeadsClick} // Add click handler here
+        className="group bg-white p-6 rounded-lg shadow ring-1 ring-gray-300 hover:bg-sky-500 hover:ring-sky-500 transition-colors cursor-pointer"
+      >
+        <div className="flex items-center space-x-3">
+          <h2 className="text-xl font-semibold text-gray-800 group-hover:text-white">
+            Leads Closed in Last 6 Months
+          </h2>
+        </div>
+        <p className="text-3xl font-bold text-gray-900 group-hover:text-white">
+          {recentLeads}
+        </p>
       </div>
 
-      {/* Pipeline Value Widget (Static for now) */}
+      {/* Pipeline Value Widget */}
       <div className="bg-white p-6 rounded-lg shadow">
         <h2 className="text-xl font-semibold text-gray-800">Total Value</h2>
-        <p className="text-3xl font-bold text-gray-900">${totalValue.toLocaleString()}</p>
+        <p className="text-3xl font-bold text-gray-900">
+          ${totalValue.toLocaleString()}
+        </p>
       </div>
     </div>
   );
