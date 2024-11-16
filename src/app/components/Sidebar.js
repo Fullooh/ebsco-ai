@@ -46,7 +46,7 @@ const Sidebar = () => {
         onClick={toggleChat}
         className="mt-auto px-4 py-2 bg-blue-500 text-white rounded-lg shadow transition-transform duration-300 ease-in-out hover:bg-blue-600 hover:scale-105"
       >
-        {isChatOpen ? "Close Chat" : "Open Chat"}
+        {isChatOpen ? "Close AI Assistant" : "Open AI Assistant"}
       </button>
 
       {/* Chat Assistant Popup within Sidebar */}
@@ -61,14 +61,14 @@ const Sidebar = () => {
           >
             <div className="p-4 bg-gray-50 rounded-lg shadow-inner mt-4">
               <h2 className="text-lg font-semibold text-gray-800 mb-2">
-                Chat Assistant
+                AI Assistant
               </h2>
               <div
                 id="messages"
                 className="mb-4 text-sm text-gray-700 w-full overflow-y-auto p-2 bg-white rounded shadow-inner"
                 style={{ height: "300px" }}
               >
-                <p>Enter a message below.</p>
+                <p>Chat with our Lead AI Specialist</p>
                 {/* Dynamic messages will go here */}
               </div>
 
