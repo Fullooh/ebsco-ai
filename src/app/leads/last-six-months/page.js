@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation"; // Import useRouter to handle navig
 
 export default function LastSixMonthsLeads() {
   const [leads, setLeads] = useState([]);
+  const [totalValue, setTotalValue] = useState(0); // State to store the total value
   const router = useRouter(); // Initialize the router
 
   useEffect(() => {
@@ -19,6 +20,13 @@ export default function LastSixMonthsLeads() {
           const closedDate = new Date(lead.dateclosed);
           return lead.purchased && closedDate >= sixMonthsAgo;
         });
+
+        // Calculate total value of the filtered leads
+        const total = filteredLeads.reduce(
+          (sum, lead) => sum + (lead.proposedvalue || 0),
+          0,
+        );
+        setTotalValue(total);
 
         setLeads(filteredLeads);
       } catch (error) {
@@ -64,6 +72,14 @@ export default function LastSixMonthsLeads() {
             </tr>
           ))}
         </tbody>
+        {/* Total Value Row */}
+        <tfoot>
+          <tr className="bg-gray-200 font-semibold">
+            <td className="p-4 text-left">Total</td>
+            <td className="p-4"></td>
+            <td className="p-4">${totalValue.toLocaleString()}</td>
+          </tr>
+        </tfoot>
       </table>
     </div>
   );
