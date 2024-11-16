@@ -14,23 +14,23 @@ const DashboardWidgets = () => {
         const response = await axios.get("/data");
         const leads = response.data;
 
+        // Calculate Total Leads
         const total = leads.filter((lead) => lead.purchased).length;
         setTotalLeads(total);
 
+        // Calculate Leads Closed in the Last 6 Months
         const sixMonthsAgo = new Date();
         sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
-
         const recent = leads.filter((lead) => {
           const closedDate = new Date(lead.dateclosed);
           return lead.purchased && closedDate >= sixMonthsAgo;
         }).length;
-
         setRecentLeads(recent);
 
-        const totalValue = leads.reduce((sum, lead) => {
-          return sum + (lead.proposedvalue || 0);
-        }, 0);
-
+        // Calculate Total Value (only for purchased leads)
+        const totalValue = leads
+          .filter((lead) => lead.purchased) // Only include purchased leads
+          .reduce((sum, lead) => sum + (lead.proposedvalue || 0), 0); // Sum proposed values
         setTotalValue(totalValue);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -48,6 +48,11 @@ const DashboardWidgets = () => {
   // Click handler to navigate to the "Last 6 Months" leads page
   const handleRecentLeadsClick = () => {
     router.push("/leads/last-six-months"); // Navigate to the specific page
+  };
+
+  // Click handler to navigate to the "Total Value" page
+  const handleTotalValueClick = () => {
+    router.push("/leads/total-value"); // Navigate to the specific page
   };
 
   return (
@@ -82,10 +87,17 @@ const DashboardWidgets = () => {
         </p>
       </div>
 
-      {/* Pipeline Value Widget */}
-      <div className="bg-white p-6 rounded-lg shadow">
-        <h2 className="text-xl font-semibold text-gray-800">Total Value</h2>
-        <p className="text-3xl font-bold text-gray-900">
+      {/* Total Value Widget with click and hover effect */}
+      <div
+        onClick={handleTotalValueClick} // Add click handler here
+        className="group bg-white p-6 rounded-lg shadow ring-1 ring-gray-300 hover:bg-sky-500 hover:ring-sky-500 transition-colors cursor-pointer"
+      >
+        <div className="flex items-center space-x-3">
+          <h2 className="text-xl font-semibold text-gray-800 group-hover:text-white">
+            Total Value
+          </h2>
+        </div>
+        <p className="text-3xl font-bold text-gray-900 group-hover:text-white">
           ${totalValue.toLocaleString()}
         </p>
       </div>
