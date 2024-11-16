@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import ChatControls from "./ChatControls";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion"; // Import AnimatePresence
 
 const Sidebar = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
@@ -32,7 +32,7 @@ const Sidebar = () => {
                 aria-hidden="true"
                 className="w-5 h-5"
               >
-                <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8v-10h-8v10zm0-18v6h8V3H3v10zm10 8v-10z" />
+                <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8v-10h-8v10zm0-18v6h8V3h-8z" />
               </svg>
             </div>
             Dashboard
@@ -49,38 +49,37 @@ const Sidebar = () => {
         {isChatOpen ? "Close Chat" : "Open Chat"}
       </button>
 
-      {/* Chat Assistant Popup with Framer Motion */}
-      <motion.div
-        initial={{ height: 0, opacity: 0 }}
-        animate={
-          isChatOpen
-            ? { height: "auto", opacity: 1 }
-            : { height: 0, opacity: 0 }
-        }
-        transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="overflow-hidden"
-      >
+      {/* Chat Assistant Popup within Sidebar */}
+      <AnimatePresence>
         {isChatOpen && (
-          <div className="p-4 bg-gray-50 rounded-lg shadow-inner mt-4">
-            <h2 className="text-lg font-semibold text-gray-800 mb-2">
-              Chat Assistant
-            </h2>
-            <div
-              id="messages"
-              className="mb-4 text-sm text-gray-700 max-h-40 w-full overflow-y-auto p-2 bg-white rounded shadow-inner"
-            >
-              <p>Enter a message below.</p>
-              {/* Dynamic messages will go here */}
+          <motion.div
+            initial={{ height: 0, opacity: 0 }} // Initial state
+            animate={{ height: "auto", opacity: 1 }} // Open state
+            exit={{ height: 0, opacity: 0 }} // Closing state
+            transition={{ duration: 0.5, ease: "easeInOut" }} // Transition
+            className="overflow-hidden"
+          >
+            <div className="p-4 bg-gray-50 rounded-lg shadow-inner mt-4">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2">
+                Chat Assistant
+              </h2>
+              <div
+                id="messages"
+                className="mb-4 text-sm text-gray-700 max-h-40 w-full overflow-y-auto p-2 bg-white rounded shadow-inner"
+              >
+                <p>Enter a message below.</p>
+                {/* Dynamic messages will go here */}
+              </div>
+              <textarea
+                id="input"
+                placeholder="Start typing..."
+                className="w-full h-20 p-2 border rounded resize-none text-gray-800 -ml-2"
+              ></textarea>
+              <ChatControls />
             </div>
-            <textarea
-              id="input"
-              placeholder="Start typing..."
-              className="w-full h-20 p-2 border rounded resize-none text-gray-800 -ml-2"
-            ></textarea>
-            <ChatControls />
-          </div>
+          </motion.div>
         )}
-      </motion.div>
+      </AnimatePresence>
     </div>
   );
 };
