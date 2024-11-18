@@ -6,6 +6,7 @@ import ChatControls from "./components/ChatControls";
 import Sidebar from "./components/Sidebar";
 import FileUpload from "./components/FileUpload";
 import Recommendations from "./components/Recommendations";
+import DataVisualizations from "./components/DataVisualizations";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
         {/* Dashboard Widgets */}
         <DashboardWidgets />
         <Recommendations />
+        { /* Data Visualizations */ }
+        <DataVisualizations />
       </div>
     </div>
   );
