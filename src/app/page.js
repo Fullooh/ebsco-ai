@@ -20,9 +20,9 @@ export default function Home() {
         <FileUpload />
         {/* Dashboard Widgets */}
         <DashboardWidgets />
-        <Recommendations />
-        { /* Data Visualizations */ }
+        {/* Data Visualizations */}
         <DataVisualizations />
+        <Recommendations />
       </div>
     </div>
   );

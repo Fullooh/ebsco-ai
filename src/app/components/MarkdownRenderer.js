@@ -32,4 +32,4 @@ export default function MarkdownRenderer({ content }) {
       {content}
     </ReactMarkdown>
   );
-};
+}

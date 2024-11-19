@@ -1,18 +1,19 @@
 "use client";
+
 import { useState, useEffect } from "react";
-import MarkdownRenderer from "./MarkdownRenderer";
 
-export default function ChatControls() {
-  const [messageCounter, setMessageCounter] = useState(0);
+export default function ChatControls({ onUserInput }) {
   const [leadsData, setLeadsData] = useState(null); // To store leads data
+  const [messageCounter, setMessageCounter] = useState(0); // To track message count
 
-  // Fetch leads data
+  // Fetch leads data on component mount
   useEffect(() => {
     const fetchLeadsData = async () => {
       try {
         const response = await fetch("/data");
         const data = await response.json();
         setLeadsData(data);
+        console.log("Leads data loaded:", data); // Debug log
       } catch (error) {
         console.error("Error fetching leads data:", error);
       }
@@ -43,8 +44,6 @@ export default function ChatControls() {
         `message${currentCounter}`,
       );
       currentMessage.innerHTML = message;
-      const lineBreak = document.createElement("br");
-      contentElement.appendChild(lineBreak);
 
       return currentCounter + 1;
     });
@@ -59,21 +58,24 @@ export default function ChatControls() {
       return;
     }
 
-    // Combine user input with leads data and task-specific instructions
-    const instructions = `
-      Based on the leads data provided, categorize leads that have not converted (i.e., Purchased = FALSE) into categories based on sentiment analysis of their messages.
-      For each category, provide:
-      - Reasons for categorization with examples from their messages.
-      - Suggested next steps.
-      - A sample email template for follow-up if applicable.
-    `;
     const prompt = `
-      User Input: ${userInput}
+      You are an AI Lead Management Specialist. Analyze the following leads data and categorize each lead into one of three groups:
+      - Not Interested in New Tools/Providers
+      - Evaluating Multiple Vendors
+      - Ready for Future Consideration
+
+      Rules:
+      - Each lead belongs to one category only.
+      - Provide reasons, examples, suggested next steps, and email templates for each lead.
+      - If no category fits, state: "No relevant category found."
+
       Leads Data: ${JSON.stringify(leadsData)}
-      Instructions: ${instructions}
+
+      User Input: ${userInput}
     `;
 
     try {
+      console.log("Sending prompt:", prompt); // Debug log
       const response = await fetch(`/chat`, {
         method: "POST",
         headers: {
@@ -83,6 +85,8 @@ export default function ChatControls() {
       });
 
       const botMessage = await response.json();
+      console.log("API Response:", botMessage); // Debug log
+
       if (botMessage.error) {
         appendMessage("Error", botMessage.error);
       } else {
@@ -95,11 +99,13 @@ export default function ChatControls() {
 
   // Send a message to the ChatGPT API
   async function sendMessage() {
-    const userInput = document.getElementById("input").value;
-    if (userInput.trim() === "") return;
+    const inputField = document.getElementById("input");
+    const userInput = inputField.value.trim();
+
+    if (!userInput) return;
 
     appendMessage("You", userInput);
-    document.getElementById("input").value = "";
+    inputField.value = ""; // Clear the input field
 
     const submitButton = document.getElementById("submit");
     submitButton.disabled = true;

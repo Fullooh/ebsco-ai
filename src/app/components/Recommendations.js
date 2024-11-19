@@ -1,70 +1,117 @@
-// src/app/leads/page.js
 "use client";
 
-import { useEffect } from "react";
-import axios from "axios";
+import { useEffect, useState } from "react";
 import MarkdownRenderer from "./MarkdownRenderer";
-import { createRoot } from "react-dom/client";
 
-export default function Recommendations() {
-  const instructions =
-    "Based on the data provided, I would like you to categorize leads that have not converted (i.e. Purchased = FALSE) into categories based on the sentiment analysis of their messages. For each lead in the category, please detail why they are grouped into that category with specific examples/proof from their messages that dictate their categorization. Additionally, please provide suggested next steps for each lead and a sample email template if it is recommended to follow up with an email.";
+export default function Recommendations({ userPrompt }) {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [recommendations, setRecommendations] = useState("");
 
-  // Display a message on the frontend
-  function appendMessage(message) {
-    const messagesDiv = document.getElementById("recommendationsField");
+  const staticInstructions = `
+    You are an AI Lead Management Specialist. Analyze the leads based on the provided data and categorize them into one of the following groups:
 
-    const contentElement = document.createElement("div");
-    messagesDiv.appendChild(contentElement);
+    ### Categories:
+    1. **Not Interested in New Tools/Providers**
+       - Leads that have explicitly declined interest in new tools or services.
+       - Provide:
+         - Reasons for categorization.
+         - Examples from their messages.
+         - Suggested next steps.
+         - A follow-up email template (if applicable).
 
-    contentElement.innerHTML = `<div id="recommendations"></div>`;
-    const currentMessage = document.getElementById("recommendations");
+    2. **Evaluating Multiple Vendors**
+       - Leads currently exploring multiple solutions/vendors but have not committed.
+       - Provide:
+         - Reasons for categorization.
+         - Proof from their messages.
+         - Suggested next steps.
+         - A follow-up email template.
 
-    const root = createRoot(currentMessage);
-    root.render(<MarkdownRenderer content={message} />);
+    3. **Ready for Future Consideration**
+       - Leads not ready to proceed now but open to future discussions.
+       - Provide:
+         - Reasons for categorization.
+         - Examples from their messages.
+         - Suggested next steps.
+         - A friendly follow-up email template.
 
-    messagesDiv.scrollTop = messagesDiv.scrollHeight;
-  }
+    ### Rules:
+    - Each lead must belong to only one category based on the most relevant data.
+    - Avoid duplication across categories.
+    - If the lead does not fit any category, provide: "No relevant category found."
 
-  // Fetch a response from the ChatGPT API
-  async function fetchChatGPTResponse(data) {
-    const response = await fetch(`/chat`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ prompt: data + "\n" + instructions }),
-    });
+    Leads Data:
+`;
 
-    const botMessage = await response.json();
-    if (botMessage.error) {
-      appendMessage(botMessage.error);
-    } else {
-      appendMessage(botMessage.text);
-    }
-  }
-
+  // Fetch static recommendations on component mount
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchStaticRecommendations = async () => {
+      setLoading(true);
       try {
-        const response = await axios.get("/data"); // Update the path as needed
-        const leads = response.data;
+        const response = await fetch("/data");
+        const leads = await response.json();
+        const prompt = staticInstructions + JSON.stringify(leads);
 
-        // Convert the JSON object to a string
-        const jsonString = JSON.stringify(leads);
-        // alert(jsonString);
+        const aiResponse = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ prompt }),
+        });
 
-        await fetchChatGPTResponse(jsonString);
-      } catch (error) {
-        console.error("Error fetching leads data:", error);
+        if (!aiResponse.ok)
+          throw new Error("Failed to fetch static recommendations");
+
+        const result = await aiResponse.json();
+        setRecommendations(result.text);
+      } catch (err) {
+        setError("Error fetching recommendations: " + err.message);
+      } finally {
+        setLoading(false);
       }
     };
-    fetchData();
+
+    fetchStaticRecommendations();
   }, []);
+
+  // Fetch recommendations dynamically whenever `userPrompt` changes
+  useEffect(() => {
+    if (!userPrompt) return; // Skip if no user prompt provided
+
+    const fetchDynamicRecommendations = async () => {
+      setLoading(true);
+      setError(null);
+
+      try {
+        const aiResponse = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ prompt: userPrompt }),
+        });
+
+        if (!aiResponse.ok)
+          throw new Error("Failed to fetch dynamic recommendations");
+
+        const result = await aiResponse.json();
+        setRecommendations(result.text);
+      } catch (err) {
+        setError("Error processing user input: " + err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchDynamicRecommendations();
+  }, [userPrompt]);
 
   return (
     <div className="bg-white p-6 rounded-lg shadow ring-1 ring-gray-300">
-      <div id="recommendationsField">{/* Recommendations go here */}</div>
+      {loading && <p>Loading recommendations...</p>}
+      {error && <p className="text-red-500">{error}</p>}
+      {recommendations && <MarkdownRenderer content={recommendations} />}
+      {!loading && !recommendations && !error && (
+        <p>No recommendations yet. Submit a query to get started.</p>
+      )}
     </div>
   );
 }

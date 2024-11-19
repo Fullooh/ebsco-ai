@@ -1,13 +1,28 @@
+"use client";
+
 import { useState } from "react";
 import Link from "next/link";
 import ChatControls from "./ChatControls";
-import { motion, AnimatePresence } from "framer-motion"; // Import AnimatePresence
+import { motion, AnimatePresence } from "framer-motion";
 
 const Sidebar = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
+  const [userPrompt, setUserPrompt] = useState(""); // State to track the user's query
 
   const toggleChat = () => {
     setIsChatOpen((prev) => !prev);
+  };
+
+  const handleUserInput = (prompt) => {
+    console.log("User prompt received in Sidebar:", prompt); // Debug log
+    setUserPrompt(prompt);
+
+    // Simulate AI Assistant response
+    const messagesDiv = document.getElementById("messages");
+    const response = document.createElement("div");
+    response.classList.add("text-gray-700", "mt-2");
+    response.textContent = `AI Response: Processing prompt...`; // Placeholder
+    messagesDiv.appendChild(response);
   };
 
   return (
@@ -38,7 +53,6 @@ const Sidebar = () => {
             Dashboard
           </div>
         </Link>
-        {/* Add more links similarly */}
       </nav>
 
       {/* Toggle Chat Button */}
@@ -49,14 +63,14 @@ const Sidebar = () => {
         {isChatOpen ? "Close AI Assistant" : "Open AI Assistant"}
       </button>
 
-      {/* Chat Assistant Popup within Sidebar */}
+      {/* Chat Assistant Popup */}
       <AnimatePresence>
         {isChatOpen && (
           <motion.div
-            initial={{ height: 0, opacity: 0 }} // Initial state
-            animate={{ height: "auto", opacity: 1 }} // Open state
-            exit={{ height: 0, opacity: 0 }} // Closing state
-            transition={{ duration: 0.5, ease: "easeInOut" }} // Transition
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
             className="overflow-hidden"
           >
             <div className="p-4 bg-gray-50 rounded-lg shadow-inner mt-4">
@@ -69,15 +83,13 @@ const Sidebar = () => {
                 style={{ height: "300px" }}
               >
                 <p>Chat with our Lead AI Specialist</p>
-                {/* Dynamic messages will go here */}
               </div>
-
               <textarea
                 id="input"
                 placeholder="Start typing..."
                 className="w-full h-20 p-2 border rounded resize-none text-gray-800 -ml-2"
               ></textarea>
-              <ChatControls />
+              <ChatControls onUserInput={handleUserInput} />
             </div>
           </motion.div>
         )}
