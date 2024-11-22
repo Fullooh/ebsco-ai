@@ -13,5 +13,12 @@ module.exports = {
       },
     },
   },
+  theme: {
+    extend: {
+      screens: {
+        'tall': {'raw': '(min-height: 1.5 * min-width)'},
+      },
+    },
+  },
   plugins: [],
 };

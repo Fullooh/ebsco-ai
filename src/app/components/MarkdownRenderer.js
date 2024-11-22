@@ -2,7 +2,7 @@
 import React from "react";
 import ReactMarkdown from "react-markdown";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { synthwave84 } from "react-syntax-highlighter/dist/esm/styles/prism";
+import { vs } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export default function MarkdownRenderer({ content }) {
   return (
@@ -12,7 +12,7 @@ export default function MarkdownRenderer({ content }) {
           const match = /language-(\w+)/.exec(className || "");
           return !inline && match ? (
             <SyntaxHighlighter
-              style={synthwave84}
+              style={vs}
               language={match[1]}
               PreTag="div"
               wrapLines={true}

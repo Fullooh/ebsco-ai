@@ -1,8 +1,8 @@
 // src/app/page.js
 "use client";
 
+import { useEffect } from "react";
 import DashboardWidgets from "./components/DashboardWidgets";
-import ChatControls from "./components/ChatControls";
 import Sidebar from "./components/Sidebar";
 import FileUpload from "./components/FileUpload";
 import Recommendations from "./components/Recommendations";
@@ -10,7 +10,7 @@ import DataVisualizations from "./components/DataVisualizations";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen dotted-background">
+    <div className="lg:flex sm:flex-wrap min-h-screen dotted-background">
       {/* Sidebar */}
       <Sidebar />
 
@@ -20,7 +20,7 @@ export default function Home() {
         <FileUpload />
         {/* Dashboard Widgets */}
         <DashboardWidgets />
-        {/* Data Visualizations */}
+        { /* Data Visualizations */ }
         <DataVisualizations />
         <Recommendations />
       </div>

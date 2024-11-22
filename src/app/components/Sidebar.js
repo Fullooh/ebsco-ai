@@ -1,39 +1,24 @@
-"use client";
-
 import { useState } from "react";
 import Link from "next/link";
 import ChatControls from "./ChatControls";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion"; // Import AnimatePresence
 
 const Sidebar = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
-  const [userPrompt, setUserPrompt] = useState(""); // State to track the user's query
 
   const toggleChat = () => {
     setIsChatOpen((prev) => !prev);
   };
 
-  const handleUserInput = (prompt) => {
-    console.log("User prompt received in Sidebar:", prompt); // Debug log
-    setUserPrompt(prompt);
-
-    // Simulate AI Assistant response
-    const messagesDiv = document.getElementById("messages");
-    const response = document.createElement("div");
-    response.classList.add("text-gray-700", "mt-2");
-    response.textContent = `AI Response: Processing prompt...`; // Placeholder
-    messagesDiv.appendChild(response);
-  };
-
   return (
-    <div className="relative flex flex-col h-[calc(100vh-5rem)] w-full max-w-[20rem] rounded-xl bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+    <div className="relative flex flex-col h-[calc(100vh)] w-full max-w-[20rem] rounded-xl bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
       <div className="p-4 mb-2">
-        <h5 className="block font-sans text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
+        <h5 className="block text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
           CRM
         </h5>
       </div>
 
-      <nav className="flex min-w-[240px] flex-col gap-1 p-2 font-sans text-base font-normal text-blue-gray-700">
+      <nav className="flex min-w-[240px] flex-col gap-1 p-2 text-base font-normal text-blue-gray-700">
         <Link href="/">
           <div
             role="button"
@@ -53,6 +38,7 @@ const Sidebar = () => {
             Dashboard
           </div>
         </Link>
+        {/* Add more links similarly */}
       </nav>
 
       {/* Toggle Chat Button */}
@@ -63,14 +49,14 @@ const Sidebar = () => {
         {isChatOpen ? "Close AI Assistant" : "Open AI Assistant"}
       </button>
 
-      {/* Chat Assistant Popup */}
+      {/* Chat Assistant Popup within Sidebar */}
       <AnimatePresence>
         {isChatOpen && (
           <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
+            initial={{ height: 0, opacity: 0 }} // Initial state
+            animate={{ height: "auto", opacity: 1 }} // Open state
+            exit={{ height: 0, opacity: 0 }} // Closing state
+            transition={{ duration: 0.5, ease: "easeInOut" }} // Transition
             className="overflow-hidden"
           >
             <div className="p-4 bg-gray-50 rounded-lg shadow-inner mt-4">
@@ -83,13 +69,15 @@ const Sidebar = () => {
                 style={{ height: "300px" }}
               >
                 <p>Chat with our Lead AI Specialist</p>
+                <br />
+                {/* Dynamic messages will go here */}
               </div>
               <textarea
-                id="input"
-                placeholder="Start typing..."
-                className="w-full h-20 p-2 border rounded resize-none text-gray-800 -ml-2"
-              ></textarea>
-              <ChatControls onUserInput={handleUserInput} />
+                  id="input"
+                  placeholder="Start typing..."
+                  className="w-full h-20 p-2 border rounded resize-none text-gray-800 -ml-2"
+                ></textarea>
+              <ChatControls />
             </div>
           </motion.div>
         )}
