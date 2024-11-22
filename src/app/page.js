@@ -11,7 +11,8 @@ import DataVisualizations from "./components/DataVisualizations";
 
 export default function Home() {
   return (
-    <div className="flex lg:flex md:flex xl:flex sm:flex-wrap min-h-screen dotted-background">
+    <div className="overflow-x wrap">
+    <div className="flex min-h-screen dotted-background">
       {/* Sidebar */}
       <div className="hidden lg:block md:block xl:block 2xl:block sm:hidden">
         <Sidebar />
@@ -34,6 +35,7 @@ export default function Home() {
         { /* Data Visualizations */ }
         <DataVisualizations />
         <Recommendations />
+      </div>
       </div>
     </div>
   );

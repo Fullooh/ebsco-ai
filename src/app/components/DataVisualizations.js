@@ -9,10 +9,10 @@ export default function DataVisualizations() {
         if (!vizElement) return;
 
         if (divElement.offsetWidth > 800) {
-            vizElement.style.width = '1000px';
+            vizElement.style.width = '100%';
             vizElement.style.height = '827px';
         } else if (divElement.offsetWidth > 500) {
-            vizElement.style.width = '1000px';
+            vizElement.style.width = '100%';
             vizElement.style.height = '827px';
         } else {
             vizElement.style.width = '100%';
@@ -27,7 +27,8 @@ export default function DataVisualizations() {
 
     return (
         <div className="bg-white p-6 rounded-lg shadow ring-1 ring-gray-300">
-            <div className="tableauPlaceholder" id="viz1731912329724" style={{ position: 'relative' }}>
+            <div className="tableauPlaceholder" id="viz1731912329724" style={{
+                position: 'relative', }} >
                 <noscript>
                     <a href="#">
                         <img
