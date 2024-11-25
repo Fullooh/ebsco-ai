@@ -37,14 +37,11 @@ export default function Recommendations({ userPrompt }) {
          - A friendly follow-up email template.
 
     ### Rules:
-    - Each lead must belong to only one category based on the most relevant data.
-    - Avoid duplication across categories.
-    - If the lead does not fit any category, provide: "No relevant category found."
+    - Avoid redundancy in displaying categorized leads.
+    - Use school names or districts as headings for improved clarity.
+    - Format content for easy readability in markdown.
+  `;
 
-    Leads Data:
-`;
-
-  // Fetch static recommendations on component mount
   useEffect(() => {
     const fetchStaticRecommendations = async () => {
       setLoading(true);
@@ -74,41 +71,20 @@ export default function Recommendations({ userPrompt }) {
     fetchStaticRecommendations();
   }, []);
 
-  // Fetch recommendations dynamically whenever `userPrompt` changes
-  useEffect(() => {
-    if (!userPrompt) return; // Skip if no user prompt provided
-
-    const fetchDynamicRecommendations = async () => {
-      setLoading(true);
-      setError(null);
-
-      try {
-        const aiResponse = await fetch("/chat", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ prompt: userPrompt }),
-        });
-
-        if (!aiResponse.ok)
-          throw new Error("Failed to fetch dynamic recommendations");
-
-        const result = await aiResponse.json();
-        setRecommendations(result.text);
-      } catch (err) {
-        setError("Error processing user input: " + err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchDynamicRecommendations();
-  }, [userPrompt]);
-
   return (
     <div className="bg-white p-6 rounded-lg shadow ring-1 ring-gray-300">
       {loading && <p>Loading recommendations...</p>}
       {error && <p className="text-red-500">{error}</p>}
-      {recommendations && <MarkdownRenderer content={recommendations} />}
+      {recommendations && (
+        <div className="border-t border-black-300 mt-4 pt-4 space-y-6">
+          <h2 className="text-lg font-bold text-gray-700">
+            AI Recommendations
+          </h2>
+          <div className="border border-black-300 p-4 rounded-lg bg-gray-50">
+            <MarkdownRenderer content={recommendations} />
+          </div>
+        </div>
+      )}
       {!loading && !recommendations && !error && (
         <p>No recommendations yet. Submit a query to get started.</p>
       )}
