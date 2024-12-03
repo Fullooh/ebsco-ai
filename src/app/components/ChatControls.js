@@ -66,8 +66,11 @@ export default function ChatControls({ onUserInput }) {
 
       Rules:
       - Each lead belongs to one category only.
-      - Provide reasons, examples, suggested next steps, and email templates for each lead.
+      - List each category in a paragraph and briefly talk about the leads that are categorized under it.
+      - Provide reasons, examples, suggested next steps, and ideas for an email or survey to follow up.
       - If no category fits, state: "No relevant category found."
+
+      Please try not to use Markdown formatting as this is not supported.
 
       Leads Data: ${JSON.stringify(leadsData)}
 

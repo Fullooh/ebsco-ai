@@ -93,7 +93,6 @@ export default function Recommendations({ userPrompt }) {
       - Maintain a professional, non-intrusive approach.
       - Prioritize long-term relationship building.
       - Be transparent about data usage and communication intentions.
-
       ---
   `;
 

@@ -5,7 +5,7 @@ export default function MobileTitleCard() {
     <div className="rounded-xl bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
       <div className="p-4 mb-2">
         <h5 className="block text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-          CRM
+          Prescience CRM
         </h5>
       </div>
 

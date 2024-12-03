@@ -30,7 +30,7 @@ const Sidebar = () => {
                 transition={{ duration: 0.5, ease: "easeInOut" }} // Transition
                 className="shadow-xl shadow-blue-gray-900/5"
             >
-                <div className="relative flex-col h-[calc(100vh)] w-full max-w-[100rem] rounded-xl bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
+                <div className="relative flex-col h-auto w-full max-w-[100rem] rounded-xl bg-white bg-clip-border p-4 text-gray-700 shadow-xl shadow-blue-gray-900/5">
                 <div className="p-4 bg-gray-50 rounded-lg shadow-inner mt-4">
                 <h2 className="text-lg font-semibold text-gray-800 mb-2">
                     AI Assistant
